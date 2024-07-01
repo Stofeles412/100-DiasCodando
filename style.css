@@ -3,6 +3,7 @@
     padding: 0;
 }
 body{
+    background-image: url(../100-DiasCodando/imagens/fundo\ natureza.jpg);
     font-weight: bold;
     overflow-x: hidden;
     height: 100vh;
@@ -26,7 +27,6 @@ padding: 5px;
 #fundo{
 display: flex ;
 height: 100vh;
-background-image: ;
 }
 #itens{
  text-align: center;
@@ -49,6 +49,7 @@ form{
     box-shadow: 3px 3px 3px black;
     background-color: rgb(40, 45, 45);
     margin: auto;
+   
 }
 .botao{
     margin-top: 100px;
