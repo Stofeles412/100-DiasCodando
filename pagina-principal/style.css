@@ -3,21 +3,36 @@
     padding: 0;
 }
 body{
+    overflow-x: hidden;
     background-color: rgb(211, 209, 206);
     border: solid 1px black;
 }
 header{
+    padding: 20px;
     color: white;
     text-align: center;
     background-color: rgb(0, 0, 0);
+}
+#heade-img{
+    margin-right: 80%;
+    width: 30px;
+    width: 100px;
+}
+header, h2{
+    padding: 20px;
+    font-size: 1.5em;
 }
 #itens-nav{
     color: blue;
    text-align: center;
     display: flex;
 }
+#itens-nav :hover{
+    transition: 1.5s;
+   text-decoration: underline;
+}
 .nav-li, a{
-
+    width: 50%;
     font-weight: bold; 
     color: rgb(42, 233, 4);
     list-style-type: none;
@@ -27,12 +42,24 @@ header{
 
 }
 nav{
+    width: 100%;
     box-shadow: 3px 3px 3px black;
     background-color: rgb(27, 26, 26);
 }
 main{
     line-height: 40px;
     padding: 50px;
+}
+main, h1{
+    padding: 50px;
+    font-size: 1.5em;
+}
+main, p{
+    padding: 30px;
+}
+main, img{
+    margin: auto;
+    width: 90%;
 }
 article{
     margin: auto;
@@ -42,4 +69,11 @@ article{
     width: 90%;
     padding: 30px;
     background-color: rgb(32, 31, 31);
+}
+footer{
+    font-size: 1.3em;
+    color: aliceblue;
+    margin-top: 300px;
+    padding: 50px;
+    background-color: rgb(54, 60, 58);
 }
