@@ -8,6 +8,7 @@ body{
     border: solid 1px black;
 }
 header{
+    width: 100%;
     padding: 20px;
     color: white;
     text-align: center;
@@ -78,8 +79,19 @@ footer{
     background-color: rgb(54, 60, 58);
 }
 
-@media screen and (max-width: 730px){
-body{
-    background-color: rgb(97, 26, 26);
+@media screen and (max-width: 630px){
+    body{ width: 90vw;
+        overflow-x: hidden;
+    }
+
+article{
+   width: 90%;
+  
+}
+main{
+    width: 90%;
+}
+footer{
+    width: 100%;
 }
 }
