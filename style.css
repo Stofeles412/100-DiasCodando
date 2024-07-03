@@ -59,3 +59,9 @@ form{
     border: 0;
     background-color: black;
 }
+footer{
+    text-align: center;
+    margin-top: 500px;
+    padding: 20px;
+    background-color: rgb(14, 101, 243);
+}
