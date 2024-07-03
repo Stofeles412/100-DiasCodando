@@ -1,0 +1,45 @@
+*{  font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(211, 209, 206);
+    border: solid 1px black;
+}
+header{
+    color: white;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+}
+#itens-nav{
+    color: blue;
+   text-align: center;
+    display: flex;
+}
+.nav-li, a{
+
+    font-weight: bold; 
+    color: rgb(42, 233, 4);
+    list-style-type: none;
+    text-decoration: none;
+    text-align: center;
+    margin: 50px;
+
+}
+nav{
+    box-shadow: 3px 3px 3px black;
+    background-color: rgb(27, 26, 26);
+}
+main{
+    line-height: 40px;
+    padding: 50px;
+}
+article{
+    margin: auto;
+    color: chartreuse;
+    font-weight: bold;
+    line-height: 30px;
+    width: 90%;
+    padding: 30px;
+    background-color: rgb(32, 31, 31);
+}
