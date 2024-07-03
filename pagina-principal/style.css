@@ -80,18 +80,18 @@ footer{
 }
 
 @media screen and (max-width: 630px){
-    body{ width: 90vw;
+    body{ 
         overflow-x: hidden;
     }
 
 article{
-   width: 90%;
+   width: 220%;
   
 }
 main{
-    width: 90%;
+    width: 220%;;
 }
 footer{
-    width: 100%;
+    width: 220%;;
 }
 }
