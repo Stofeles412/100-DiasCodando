@@ -84,6 +84,12 @@ footer{
         overflow-x: hidden;
     }
 
+    nav{
+        width: 220%;
+    }
+    header{
+       width: 220%; 
+    }
 article{
    width: 220%;
   
