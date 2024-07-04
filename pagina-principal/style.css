@@ -81,14 +81,15 @@ footer{
 
 @media screen and (max-width: 630px){
     body{ 
+        width: 220%;
         overflow-x: hidden;
     }
 
     nav{
-        width: 220%;
+        width: 250%;
     }
     header{
-       width: 220%; 
+       width: 250%; 
     }
 article{
    width: 220%;
