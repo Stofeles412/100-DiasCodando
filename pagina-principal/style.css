@@ -87,6 +87,13 @@ footer{
         border: solid 0px;
       
     }
+    #heade-img{
+        width: 150px;
+    }
+    main, h2{
+        padding: 50px;
+       line-height: 200px;
+    }
 
     nav{
         width: 250%;
@@ -101,7 +108,8 @@ footer{
        width: 250%; 
     }
 article{
-    line-height: 100px;
+    padding: 50px;
+    line-height: 200px;
     font-size: 4em;
    width: 220%;
   
