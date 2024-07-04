@@ -83,7 +83,7 @@ footer{
 
 @media screen and (max-width: 630px){
     body{ 
-        padding: 200px;
+        text-align: justify;
         width: 220%;
         overflow-x: hidden;
         border: solid 0px;
