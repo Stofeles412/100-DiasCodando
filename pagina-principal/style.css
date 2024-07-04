@@ -91,20 +91,26 @@ footer{
         width: 250%;
     }
     #itens-nav{
+        font-size: 2em;
        display: inline-block;
       
     }
     header{
+        font-size: 3em;
        width: 250%; 
     }
 article{
+    line-height: 100px;
+    font-size: 2em;
    width: 220%;
   
 }
 main{
+    font-size: 2em;
     width: 220%;;
 }
 footer{
+    font-size: 2em;
     width: 220%;;
 }
 }
