@@ -28,6 +28,7 @@ header, h2{
     color: blue;
    text-align: center;
     display: flex;
+  
 }
 #itens-nav :hover{
     transition: 1.5s;
@@ -108,7 +109,7 @@ footer{
        width: 250%; 
     }
 article{
-    padding: 50px;
+    padding: 100px;
     line-height: 200px;
     font-size: 4em;
    width: 220%;
