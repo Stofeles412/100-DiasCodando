@@ -20,8 +20,9 @@ header{
     width: 100px;
 }
 header, h2{
+    text-align: left;
     padding: 20px;
-    font-size: 1.5em;
+    font-size: 1.7em;
 }
 #itens-nav{
     color: blue;
@@ -83,10 +84,15 @@ footer{
     body{ 
         width: 220%;
         overflow-x: hidden;
+        border: solid 0px;
     }
 
     nav{
         width: 250%;
+    }
+    #itens-nav{
+       display: inline-block;
+      
     }
     header{
        width: 250%; 
