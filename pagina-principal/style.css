@@ -89,7 +89,7 @@ footer{
       
     }
     #heade-img{
-        width: 40%;
+        width: 80%;
     }
     main, h2{
         padding: 30px;
@@ -98,7 +98,7 @@ footer{
 
     nav{
         width: 100%;
-        padding: 120px;
+        padding: 100px;
        
     }
     #itens-nav{
@@ -109,7 +109,7 @@ footer{
     header{
         font-size: 2em;
         width: 100%;
-        padding: 70px;
+        padding: 100px;
     }
 article{
     padding: 100px;
