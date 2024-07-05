@@ -89,16 +89,19 @@ footer{
       
     }
     #heade-img{
-        width: 80%;
+        width: 20%;
     }
     main, h2{
         padding: 30px;
        line-height: 70px;
     }
+    main, img{
+        width: 50%;
+    }
 
     nav{
         width: 100%;
-        padding: 100px;
+        padding: 120px;
        
     }
     #itens-nav{
@@ -109,9 +112,10 @@ footer{
     header{
         font-size: 2em;
         width: 100%;
-        padding: 100px;
+        padding: 120px;
     }
 article{
+    border: solid 1px black;
     padding: 100px;
     line-height: 80px;
     font-size: 2em;
@@ -120,8 +124,11 @@ article{
   
 }
 #art-2{
-    background-color: rgb(74, 76, 75);
-    padding: 50px;
+    border: solid 1px black;
+    padding: 100px;
+    line-height: 80px;
+    font-size: 2em;
+    width: 100%;
 }
 main{
     font-size: 2em;
