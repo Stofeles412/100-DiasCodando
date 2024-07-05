@@ -83,7 +83,7 @@ footer{
 
 @media screen and (max-width: 630px){
     body{ 
-        width: 100vw;
+        width: 100%;
         overflow-x: hidden;
         border: solid 0px;
       
@@ -97,7 +97,7 @@ footer{
     }
 
     nav{
-        width: 100vw;
+        width: 100%;
     }
     #itens-nav{
         font-size: 4em;
@@ -106,13 +106,13 @@ footer{
     }
     header{
         font-size: 4em;
-        width: 100vw;
+        width: 100%;
     }
 article{
     padding: 100px;
     line-height: 200px;
     font-size: 4em;
-    width: 100vw;
+    width: 100%;
   
 }
 #art-2{
@@ -120,10 +120,10 @@ article{
 }
 main{
     font-size: 4em;
-    width: 100vw;
+    width: 100%;
 }
 footer{
     font-size: 4em;
-    width: 100vw;
+    width: 100%;
 }
 }
