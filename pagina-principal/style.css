@@ -98,6 +98,7 @@ footer{
 
     nav{
         width: 100%;
+        padding: 100px;
     }
     #itens-nav{
         font-size: 2em;
@@ -107,6 +108,7 @@ footer{
     header{
         font-size: 2em;
         width: 100%;
+        padding: 100px;
     }
 article{
     padding: 100px;
@@ -122,8 +124,10 @@ article{
 main{
     font-size: 2em;
     width: 100%;
+    padding: 100px;
 }
 footer{
+    padding: 100px;
     font-size: 2em;
     width: 100%;
     color: black;
