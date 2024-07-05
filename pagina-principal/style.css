@@ -75,10 +75,10 @@ article{
 }
 footer{
     font-size: 1.3em;
-    color: aliceblue;
     margin-top: 300px;
     padding: 50px;
-    background-color: rgb(54, 60, 58);
+    color: black;
+    background-color: rgb(14, 108, 35);
 }
 
 @media screen and (max-width: 900px){
@@ -117,7 +117,7 @@ footer{
         padding: 120px;
     }
 article{
-    border: solid 1px black;
+    border: solid 2px black;
     padding: 100px;
     line-height: 80px;
     font-size: 2em;
