@@ -89,7 +89,7 @@ footer{
       
     }
     #heade-img{
-        width: 150px;
+        width: 50%;
     }
     main, h2{
         padding: 50px;
@@ -100,30 +100,31 @@ footer{
         width: 100%;
     }
     #itens-nav{
-        font-size: 4em;
+        font-size: 2em;
        display: inline-block;
       
     }
     header{
-        font-size: 4em;
+        font-size: 2em;
         width: 100%;
     }
 article{
     padding: 100px;
     line-height: 200px;
-    font-size: 4em;
+    font-size: 2em;
     width: 100%;
+   
   
 }
 #art-2{
     background-color: aquamarine;
 }
 main{
-    font-size: 4em;
+    font-size: 2em;
     width: 100%;
 }
 footer{
-    font-size: 4em;
+    font-size: 2em;
     width: 100%;
 }
 }
