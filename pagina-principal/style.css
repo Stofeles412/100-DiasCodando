@@ -81,7 +81,7 @@ footer{
     background-color: rgb(54, 60, 58);
 }
 
-@media screen and (max-width: 630px){
+@media screen and (max-width: 900px){
     body{ 
         width: 100%;
         overflow-x: hidden;
@@ -89,7 +89,7 @@ footer{
       
     }
     #heade-img{
-        width: 50%;
+        width: 20%;
     }
     main, h2{
         padding: 50px;
@@ -117,7 +117,7 @@ article{
   
 }
 #art-2{
-    background-color: aquamarine;
+    background-color: rgb(74, 76, 75);
 }
 main{
     font-size: 2em;
@@ -126,5 +126,7 @@ main{
 footer{
     font-size: 2em;
     width: 100%;
+    color: black;
+    background-color: rgb(14, 108, 35);
 }
 }
