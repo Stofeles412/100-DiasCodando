@@ -108,7 +108,7 @@ footer{
     header{
         font-size: 2em;
         width: 100%;
-        padding: 100px;
+        padding: 50px;
     }
 article{
     padding: 100px;
@@ -120,6 +120,7 @@ article{
 }
 #art-2{
     background-color: rgb(74, 76, 75);
+    padding: 50px;
 }
 main{
     font-size: 2em;
