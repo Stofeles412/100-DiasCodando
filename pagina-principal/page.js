@@ -4,9 +4,10 @@ function openMenu(){
 
     if(abrir.style.display == "block"){
         abrir.style.display = "none"
-        icone.src = 'menu.png'
+       icone.src = 'menu.png'
     }else{
         abrir.style.display = "block"
-         icone.src = 'menu-fechado.png'
+        icone.src = 'menu-fechado.png'
+        
     }
 }

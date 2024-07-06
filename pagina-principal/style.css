@@ -40,6 +40,9 @@ header, h2{
     transition: 1.5s;
    text-decoration: underline;
 }
+#icone-menu{
+    display: none;
+}
 .nav-li, a{
     width: 50%;
     font-weight: bold; 
@@ -115,6 +118,9 @@ footer{
         width: 500px;
        
     }
+    #icone-menu{
+        display: block;
+    }
 
     nav{
         display: none;
@@ -127,8 +133,10 @@ footer{
         cursor: pointer;
         width: 50px;
         border: 0;
+      
        
     }
+    
     #itens-nav{
         font-size: 2em;
        display: inline-block;
@@ -172,4 +180,3 @@ footer{
     background-color: rgb(14, 108, 35);
 }
 }
-background-color: rgb(32, 31, 31);
