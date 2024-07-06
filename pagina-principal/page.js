@@ -8,7 +8,7 @@ function openMenu(){
        
     }else{
         abrir.style.display = "block"
-         
+        
         
     }
 }
