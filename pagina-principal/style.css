@@ -123,6 +123,12 @@ footer{
         padding: 120px;
        
     }
+    button, img{
+        cursor: pointer;
+        width: 50px;
+        border: 0;
+       
+    }
     #itens-nav{
         font-size: 2em;
        display: inline-block;
