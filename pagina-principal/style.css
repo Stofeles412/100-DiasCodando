@@ -76,8 +76,11 @@ main, p{
     padding: 30px;
 }
 main, img{
+    transition: 1s;
+    cursor: zoom-in;
     margin: auto;
     width: 90%;
+   
 }
 article{
     margin: auto;
@@ -98,6 +101,9 @@ footer{
     padding: 50px;
     color: black;
     background-color: rgb(14, 108, 35);
+    text-align: center;
+    line-height: 30px;
+    font-weight: bold;
 }
 
 @media screen and (max-width: 900px){
@@ -109,6 +115,7 @@ footer{
     }
     #heade-img{
         width: 20%;
+        margin-right: 150px;
     }
     main, h2{
         padding: 30px;
