@@ -76,10 +76,12 @@ main, p{
     padding: 30px;
 }
 main, img{
+   box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.388);
     transition: 1s;
     cursor: zoom-in;
     margin: auto;
     width: 90%;
+    border: solid 1px black;
    
 }
 article{

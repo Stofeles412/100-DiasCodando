@@ -21,7 +21,7 @@ var zoom =  false;
 function ampliarImg(){
     var zoom = document.getElementById("main-img")
     if(zoom.style.width == '90%'){
-        zoom.style.width = '110%'
+        zoom.style.width = '100%'
         
     }else{
     zoom.style.width = '90%'
