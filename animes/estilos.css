@@ -24,13 +24,13 @@ ul, li, a{
 }
 main{
     margin: auto;
-    width: 90%;
+    width: 80%;
     padding: 60px;
    border: solid 1px black;
 }
 article{
    margin: auto;
-    width: 90%;
+    width: 80%;
     background-color: rgb(57, 58, 61);
     padding: 60px;
 }
