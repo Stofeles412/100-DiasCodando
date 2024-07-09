@@ -25,12 +25,12 @@ ul, li, a{
 main{
     margin: auto;
     width: 90%;
-    padding: 30px;
-    background-color: rgb(185, 192, 206);
+    padding: 60px;
+   border: solid 1px black;
 }
 article{
-    margin: auto;
+   margin: auto;
     width: 90%;
-    padding: 30px;
     background-color: rgb(57, 58, 61);
+    padding: 60px;
 }
