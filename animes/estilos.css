@@ -5,6 +5,13 @@
  h1{
     margin-top: 100px;
     margin-bottom: 100px;
+    padding: 30px;
+}
+main, h2{
+    padding: 30px;
+}
+main, p{
+    padding: 20px;
 }
 body{
     width: 100%;
@@ -14,7 +21,7 @@ body{
     width: 100%;
     background-color: rgb(23, 22, 22);
   border: solid 2px rgba(0, 0, 0, 0.498);
-    margin: auto;
+ 
   
 }
 ul, li, a{
@@ -26,11 +33,17 @@ ul, li, a{
     list-style-type: none;
     text-decoration: none;
 }
+.ul-lista{
+    color: rgb(134, 23, 23);
+}
 main{
     margin: auto;
     width: 80%;
     padding: 40px;
    border: solid 1px black;
+}
+main, p{
+    font-size: 1.2em;
 }
 article{
    margin: auto;
@@ -40,4 +53,19 @@ article{
 }
 .imagens{
     width: 80%;
+}
+footer{
+  
+    background-color: rgb(163, 245, 242);
+    width: 100%;
+}
+
+@media screen and (min-width: 1200px){
+    #itens-nav{
+        margin-right: 100px;
+        display: flex;
+    }
+    main{
+       width: 90%;
+    }
 }
