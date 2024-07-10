@@ -43,7 +43,8 @@ main{
    border: solid 1px black;
 }
 main, p{
-    font-size: 1.2em;
+    padding: 30px;
+    font-size: 1.1em;
 }
 article{
    margin: auto;
@@ -52,7 +53,7 @@ article{
     padding: 40px;
 }
 .imagens{
-    width: 80%;
+    width: 100%;
 }
 footer{
   
@@ -67,5 +68,8 @@ footer{
     }
     main{
        width: 90%;
+    }
+    .imagens{
+        width: 80%;
     }
 }
