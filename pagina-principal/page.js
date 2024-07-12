@@ -11,7 +11,6 @@ function openMenu(){
         abrir.style.display = "block"
       
        
-        
     }
   
 }
