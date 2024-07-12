@@ -7,6 +7,9 @@
     margin-bottom: 100px;
     padding: 30px;
 }
+header{
+    background-color: antiquewhite;
+}
 main, h2{
     padding: 30px;
 }
