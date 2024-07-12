@@ -4,12 +4,14 @@ function openMenu(){
 
     if(abrir.style.display == "block"){
         abrir.style.display = "none"
+
+        icone.src ('sinal-de-seta-para-baixo-para-navegar.png')
         
          
        
     }else{
         abrir.style.display = "block"
-      
+        icone.src ('pra-cima.png')
        
     }
   
