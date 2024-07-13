@@ -1,0 +1,26 @@
+*{  font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow-x: hidden;
+}
+#card-1{
+    margin: auto;
+    border: solid 1px black;
+  padding: 30px;
+    background-color: rgb(171, 165, 165);
+    width: 80%;
+    border-radius: solid 1px black;
+}
+.imagens{
+    width: 100px;
+}
+.card-botao{
+    margin-left: 80%;
+    font-weight: bold;
+    padding: 10px;
+    background-color: lime;
+    border: 0;
+    width: 10%;
+}
