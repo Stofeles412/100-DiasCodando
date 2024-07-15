@@ -5,9 +5,25 @@
 body{
     overflow-x: hidden;
 }
+header{
+    text-align: center;
+    background-color: rgb(10, 70, 15);
+   
+}
+#icone-menu, button{
+    text-align: center;
+    width: 70px;
+    margin: auto;
+    display: inline;
+    border: 0;
+    background-color: transparent;
+}
+#icone-menu, button:hover{
+    cursor: pointer;
+}
 #nav-ul{
     padding: 50px;
-    display: block;
+    display: none;
   text-align: center;
      width: 100%;
      background-color: rgb(49, 75, 19);
@@ -19,7 +35,16 @@ body{
     text-decoration: none;
     color: rgb(0, 0, 0);
     list-style: none;
+    line-height: 100px;
+    
    
+}
+.ul-li{
+    border: solid 1px black;
+}
+#itens{
+   padding: 20px;
+  margin: auto;
 }
 main, h2{
     padding: 10px;
@@ -68,5 +93,8 @@ main, h2{
     .ul-li{
         display: inline;
         margin: 80px;
+    }
+    #icone-menu, button{
+display: none;
     }
 }
