@@ -28,12 +28,17 @@
     <input type="password" required id="senha" name="senha"><br><br><br>
 
   
-    <input type="submit" value="entrar" class="botao">
-    <a href="form.html"> <input type="button" value="cadastra-se" class="botao"></a>
+    <input type="submit" value="entrar" class="botao" onclick="login()">
+     <input type="button" value="cadastra-se" class="botao">
    </form>
   </main>
   <footer>
     <p>demostração</p>
   </footer>
 </body>
+<script>
+  function login(){
+      window.location.href = "form.html"
+  }
+</script>
 </html>
