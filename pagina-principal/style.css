@@ -60,6 +60,7 @@ nav{
     box-shadow: 3px 3px 3px black;
     background-color: rgb(27, 26, 26);
    padding: 1px;
+   margin-bottom: 200px;
 }
 input{
     padding: 20px;
