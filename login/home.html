@@ -50,8 +50,19 @@ text-decoration: underline;
     }
     div{
         font-size: 1.3em;
-        background-color: beige;
+        background-color: rgb(242, 200, 12);
+        padding: 100px;
+    }
+    .imagens{
+        width: 40%;
+    }
+    article, input{
         padding: 30px;
+        font-weight: bold;
+        font-size: 1.3em;
+    }
+    .check{
+        padding: 200px;
     }
 </style>
 <body>
@@ -74,16 +85,54 @@ text-decoration: underline;
        </main>
 <h2>100 receitas fáceis que vão deixar sua vida muito mais simples e gostosa</h2>
        <div>
-        <h2>menus</h2>
+        <h2>disponiveis</h2>
         <p>um portal de receitas, de culinaria de todos os lados do mundo</p>
 
         <p>As receitas fáceis são uma mão na roda para quem mora sozinho ou não tem muito tempo para cozinhar. Com poucos ingredientes, feitas em poucos minutos e utilizando pouca louça, você consegue preparar refeições deliciosas. E para conseguir resultados incríveis aproveitando itens que você já tem em casa, confira estas receitas fáceis e rápidas para todos os tipos de fome!</p>
 
      
-        <ul>
-            <li><a href="#"></a></li>
-        </ul>
        </div>
+
+       <article>
+        <h2>bolo de cenoura</h2>
+
+        <img src="../imagens/bolo de cenoura.webp" alt="bolo-cenoura" class="imagens">
+
+        <p>O bolo de cenoura é um clássico da culinária brasileira, conhecido por sua textura macia, sabor suave e irresistível cobertura de chocolate. Perfeito para o café da tarde ou sobremesa, esse bolo traz a doçura natural das cenouras, que conferem uma cor vibrante e umidade à massa. Com uma cobertura de chocolate cremosa, é um deleite que agrada a todos os paladares.</p>
+
+        <h2>igredientes</h2>
+
+       
+        <input type="checkbox" name="igredientes" id="igredientes" class="check">
+        <label for="igredientes">3 cenouras médias, descascadas e picadas</label>
+
+        <input type="checkbox" name="ovos" id="ovos">
+        <label for="ovos">4 ovos</label>
+
+        <input type="checkbox" name="oleo" id="oleo">
+        <label for="oleo">1 xícara de óleo</label>
+
+        <input type="checkbox" name="acucar" id="acucar">
+        <label for="acucar">2 xícaras de açúcar</label>
+
+        <input type="checkbox" name="fermento" id="fermento">
+        <label for="fermento">1 colher de sopa de fermento em pó</label>
+
+       <p>para cobertura de chocolate</p>
+
+       <input type="checkbox" name="1x acucar" id="1x acucar">
+       <label for="1x acucar">1 xícara de açúcar</label>
+
+       <input type="checkbox" name="chocolate" id="chocolate">
+       <label for="chocolate">3 colheres de sopa de chocolate em pó</label>
+
+       <input type="checkbox" name="manteiga" id="manteiga">
+       <label for="manteiga">1 colher de sopa de manteiga</label>
+
+       <input type="checkbox" name="leite" id="leite">
+       <label for="leite">1/2 xícara de leite</label>
+       
+       </article>
     
 </body>
 </html>
