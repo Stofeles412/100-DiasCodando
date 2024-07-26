@@ -48,22 +48,33 @@ text-decoration: underline;
         text-shadow: 3px 3px 3px black;
         font-size: 3em;
     }
+     h2{
+       margin-top: 100px;
+        padding: 30px;
+        font-size: 3em;
+    }
     div{
         font-size: 1.3em;
         background-color: rgb(242, 200, 12);
         padding: 100px;
     }
+   
     .imagens{
         width: 40%;
+    }
+    article{
+        line-height: 100px;
     }
     article, input{
         padding: 30px;
         font-weight: bold;
         font-size: 1.3em;
         background-color: rgb(156, 128, 28);
+       
     }
     .check{
         padding: 200px;
+     line-height: 100px;
     }
 </style>
 <body>
@@ -81,11 +92,13 @@ text-decoration: underline;
     </header>
     <main>
         <h1>receitaria</h1>
-
+      
 
        </main>
-<h2>100 receitas fáceis que vão deixar sua vida muito mais simples e gostosa</h2>
+
        <div>
+        <h2>100 receitas fáceis que vão deixar sua vida muito mais simples e gostosa</h2>
+
         <h2>disponiveis</h2>
         <p>um portal de receitas, de culinaria de todos os lados do mundo</p>
 
@@ -102,7 +115,7 @@ text-decoration: underline;
         <p>O bolo de cenoura é um clássico da culinária brasileira, conhecido por sua textura macia, sabor suave e irresistível cobertura de chocolate. Perfeito para o café da tarde ou sobremesa, esse bolo traz a doçura natural das cenouras, que conferem uma cor vibrante e umidade à massa. Com uma cobertura de chocolate cremosa, é um deleite que agrada a todos os paladares.</p>
 
         <h2>igredientes</h2>
-
+<form action="index.php" method="get">
        
         <input type="checkbox" name="igredientes" id="igredientes" class="check">
         <label for="igredientes">3 cenouras médias, descascadas e picadas</label>
@@ -132,8 +145,11 @@ text-decoration: underline;
 
        <input type="checkbox" name="leite" id="leite">
        <label for="leite">1/2 xícara de leite</label>
-       
+    </form>
        </article>
+       <footer>
+        <p>copy fernbando 2024</p>
+       </footer>
     
 </body>
 </html>
