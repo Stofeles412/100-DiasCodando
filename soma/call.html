@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calcular</title>
+</head>
+<body>
+    <nav>
+        <h2>calculadora</h2>
+    </nav>
+    <article>
+        <form onsubmit="calcularNumero()" method="get">
+
+             <label for="n1">digite um numero</label>
+            <input type="number" id="n1" name="n1">
+
+            <label for="n2">digite mais um numero</label>
+            <input type="number" id="n2" name="n2">
+
+            <input type="submit" value="calacular">
+        </form>
+        <div>
+            <p id="res">a resposta é....</p>
+        </div>
+    </article>
+    <script>
+        function calcularNumero(){
+            var n1 = document.getElementById('n1')
+            var n2 = document.getElementById('n2')
+            var res = document.getElementById('res')
+            Number (n1.value.numero)
+            Number (n2.value.numero2)
+            res = numero * numero2
+            window.write(`o resultado é ${res}`)
+        }
+        
+        
+    </script>
+</body>
+</html>
