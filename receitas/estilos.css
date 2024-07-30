@@ -68,4 +68,18 @@ article, input{
  line-height: 100px;
 }
 
-@media screen and wi
+@media screen and (max-width: 830px){
+    header{
+        padding: 30px;
+        height: 50%;
+        width: 100%;
+        
+    }
+    .imagens{
+        width: 100%;
+    }
+    #itens{
+        display: block;
+       text-align: center;
+    }
+}
