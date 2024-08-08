@@ -27,7 +27,7 @@ main, p{
 body{
     width: 100%;
     overflow-x: hidden;
-    background-color: rgb(118, 230, 125);
+    background-color: rgb(250, 250, 250);
 }
 #nav-ul{
     display: none;
