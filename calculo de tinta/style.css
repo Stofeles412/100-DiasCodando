@@ -22,14 +22,14 @@ body{
     overflow-x: hidden;
 }
 input{
-   
     width: 100%;
     padding: 20px;
-    background-color: antiquewhite;
+    background-color: rgb(221, 129, 9);
 }
-label{
+
+    
+
    
-}
 .botao{
     width: 30%;
     padding: 30px;
@@ -41,4 +41,9 @@ label{
 #altura{
     margin-top: 100px;
     margin-bottom: 200px;
+}
+article, p{
+    line-height: 40px;
+    padding: 30px;
+    font-size: 1.2em;
 }
