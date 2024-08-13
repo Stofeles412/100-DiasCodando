@@ -10,6 +10,9 @@
    background-repeat: no-repeat;
    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.426);
 }
+#nav-img, button{
+    display: none;
+}
 nav, ul{
     width: 100%;
    position: fixed;
@@ -53,7 +56,8 @@ form{
     margin-right: 250px;
     width: 30%;
     padding: 5px;
-    background-color: rgb(204, 218, 209);
+    background-color: rgb(45, 48, 46);
+    color: azure;
     font-weight: bold;
     font-size: 1.7em;
     margin-top: 200px;
@@ -93,4 +97,22 @@ footer{
     margin-top: 300px;
     background-color: rgb(188, 116, 28);
     text-align: center;
+}
+@media screen and (max-width: 730px){
+#nav-itens{             
+        display: none;
+    }
+    #nav-img, button{
+        display: block;
+        margin: auto;
+        background-color: transparent;
+        border: 0;
+        width: 50px;
+    }
+    nav{
+        padding: 50px;
+    }
+    article{
+        width: 80%;
+    }
 }
