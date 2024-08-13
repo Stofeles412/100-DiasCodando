@@ -26,11 +26,14 @@ input{
     padding: 20px;
     background-color: rgb(221, 129, 9);
 }
-
-    
-
-   
+label{
+    font-size: 2em;
+    font-weight: bold;
+}
+     
 .botao{
+    
+    margin-right: 250px;
     width: 30%;
     padding: 30px;
     background-color: rgb(238, 204, 15);
@@ -39,6 +42,10 @@ input{
     margin-top: 200px;
 }
 #altura{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+#largura{
     margin-top: 100px;
     margin-bottom: 200px;
 }
