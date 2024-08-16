@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> teste</h1>
+    <input type="number" id="n1" name="n1">
+    <input type="number" id="n2" name="n2">
+    <input type="button" value="calcular" onclick="callN()">
+
+    <p id="resposta"></p>
+</body>
+<script>
+    function callN(){
+        var n1 = parseInt(document.getElementById("n1").value.n1)
+        var n2 = parseInt(document.getElementById("n1").value.n2)
+    var res = document.getElementById("resposta").textContent = `o resultado da soma é = a ${soma}`
+         soma = n1 * n2
+       
+    }
+</script>
+</html>
