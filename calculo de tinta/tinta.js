@@ -16,6 +16,7 @@ function calcular() {
     // Obtém e converte os valores
     var altura = parseInt(document.getElementById("altura").value, 10);
     var largura = parseInt(document.getElementById("largura").value, 10);
+    var tinta = (parseFloat( area/2).value, 10)
 
     // Verifica se os valores são números válidos
     if (isNaN(altura) || isNaN(largura)) {
@@ -25,8 +26,9 @@ function calcular() {
 
     // Calcula a área
     var area = altura * largura;
-    document.getElementById("resultado").textContent = `Área:  ${area}  M quadrados.;`
+    document.getElementById("resultado").textContent = `Área:  ${area}  M quadrados. você prescisaria de ${tinta}L de tinta para pintar sua parede;`
 
+   
 }
 
 
