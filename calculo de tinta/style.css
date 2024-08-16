@@ -132,9 +132,13 @@ width: 220%;
         margin: auto;
         position: relative;
         padding: 50px;
-        width: 100%;
+        width: 220%;
     }
     article{
+        font-size: 2em;
+        width: 220%;
+    }
+    form{
         width: 220%;
     }
     footer{
