@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+#div-botao{
+    background-color: rgb(209, 173, 11);
+}
 #header-fundo{
    background-image: url(../imagens/pintura-header.jpg);
    width: 100%;
@@ -45,7 +48,6 @@ label{
 form{
     margin: auto;
     width: 80%;
-    background-color: rgb(204, 218, 209);
     padding: 50px;
     border: solid 2px rgba(0, 0, 0, 0.326);
 }
@@ -98,9 +100,22 @@ footer{
     background-color: rgb(188, 116, 28);
     text-align: center;
 }
+#resultado{
+   color: rgb(0, 119, 255);
+    font-weight: bold;
+    font-size: 2em;
+}
 @media screen and (max-width: 730px){
-#nav-itens{             
+#nav-itens{   
+    position: relative;
         display: none;
+       
+    }
+    .botao{
+        margin: 10px;
+    }
+    #div-botao, button{
+cursor: pointer;
     }
     #nav-img, button{
         display: block;
@@ -110,6 +125,8 @@ footer{
         width: 50px;
     }
     nav{
+        margin: auto;
+        position: relative;
         padding: 50px;
     }
     article{

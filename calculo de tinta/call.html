@@ -7,18 +7,23 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  
-    <nav id="itens">
+    <div id="div-botao">
+        <button ><img src="../imagens/menu.png" alt="icone" id="nav-img" onclick="openMenu()">
+            </button>
+      </div>
+          <nav>
+         
+            <h2>LOGO</h2>
 
-        <h2>LOGO</h2>
-      <button ><img src="../imagens/sinal-de-seta-para-baixo-para-navegar.png" alt="icone" id="nav-img" onclick="openMenu()"></button>
         <ul id="nav-itens">
             <li class="ul-li"><a href="#">tintas</a></li>
             <li class="ul-li"><a href="#">cores</a></li>
             <li class="ul-li"><a href="#">ferramentas</a></li>
             <li class="ul-li"><a href="#">misturas</a></li>
         </ul>
+        
     </nav>
+  
     <header id="header-fundo">
 
     </header>
@@ -65,18 +70,18 @@
             Lembre-se de arredondar para mais e considerar um pouco extra para retoques. No exemplo, você precisaria de pelo menos 1 litro para uma demão. Se for aplicar duas demãos, você precisará de cerca de 2 litros.</p>
     </article>
     <main>
-<form onsubmit="calcular()" method="get">
+<form  method="get">
 <label for="altura">altura em M</label>
 <input type="number" id="altura" name="altura"> 
 
 <label for="largura">largura em M</label>
 <input type="number" id="largura" name="largura">
 
-<input type="submit" value="calacular" class="botao">
+<input type="button" value="calacular" class="botao" onclick="calcular()">
 <button class="botao">novo calculo</button>
 </form>
 
-<p id="resultado">resultado...</p>
+<p id="resultado"></p>
     </main>
     <footer>
 <p>copy c fernando stofeles</p>
