@@ -111,11 +111,15 @@ footer{
         display: none;
        
     }
+    #header-fundo{
+        width: 100%;
+    }
     .botao{
         margin: 10px;
     }
     #div-botao, button{
 cursor: pointer;
+width: 100%;
     }
     #nav-img, button{
         display: block;
@@ -128,8 +132,9 @@ cursor: pointer;
         margin: auto;
         position: relative;
         padding: 50px;
+        width: 100%;
     }
     article{
-        width: 80%;
+        width: 220%;
     }
 }
