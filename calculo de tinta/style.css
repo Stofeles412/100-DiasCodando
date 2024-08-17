@@ -39,7 +39,7 @@ body{
 input{
     width: 80%;
     padding: 20px;
-    background-color: rgb(115, 115, 114);
+    background-color: rgb(52, 52, 47);
 }
 label{
     font-size: 2em;
@@ -55,7 +55,6 @@ form{
 .botao{
     border-radius: 30px;
     cursor: pointer;
-    margin-right: 250px;
     width: 30%;
     padding: 5px;
     background-color: rgb(45, 48, 46);
@@ -65,12 +64,18 @@ form{
     margin-top: 200px;
 }
 #altura{
+    color: rgb(232, 197, 2);
+    font-size: 2em;
     margin-top: 100px;
     margin-bottom: 100px;
+    border: 0;
 }
 #largura{
+    color: rgb(232, 197, 2);
     margin-top: 100px;
     margin-bottom: 200px;
+    font-size: 2em;
+    border: 0;
 }
 article{
     margin: auto;
