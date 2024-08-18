@@ -1,33 +1,55 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        *{ font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        #resposta{
+font-weight: bold;
+color: brown;
+        }
+        #res2{
+            color: blue;
+        }
+    </style>
 </head>
 <body>
     <h1> teste</h1>
-    <input type="number" id="n1" name="n1">
-    <input type="number" id="n2" name="n2">
+    <input type="number" id="n1" name="n1" required minlength="1" value="1">
+    <input type="number" id="n2" name="n2" required minlength="1" value="1">
     <input type="button" value="calcular" onclick="callN()">
+    <button>limpar</button>
 
     <p id="resposta">resultado...</p>
+    <p id="res2">resposta.2</p>
+    <p id="resultado"></p>
+    <p id="res3"></p>
 </body>
 <script>
     function callN(){
-        var n1 = parseFloat(document.getElementById("n1").value, 10)
-        var n2 = parseFloat(document.getElementById("n2").value, 10)
+        var n1 = parseFloat(document.getElementById("n1").value, 1)
+        var n2 = parseFloat(document.getElementById("n2").value, 1)
         soma = n1 * n2
-        mais = n1 + n2
+         mais = n1 + n2
         menos = n1 - n2
         div = n1 / n2
-    var res = document.getElementById("resposta").textContent = `o resultado da conta de x é = a ${soma}  a soma  + é = ${mais} a subtração é = ${menos} e a divisão é = ${div}`
+    var res = document.getElementById("resposta").textContent = `o resultado da conta de x é = a ${soma}`
+
+    var res = document.getElementById("res2").textContent = `o resultado em divisão é = ${div}`
+
+   
+    
+    
 
     
-    
-
-    
-       
+     var resultado = document.getElementById("resultado").textContent = `o resultado da adção é = a ${mais}` 
+     
+     var res3 = document.getElementById("res3").textContent = `a subtrção é = ${menos}`
        
     }
 </script>
