@@ -24,6 +24,8 @@ function calcular() {
         return;
     }
 
+   
+
     // Calcula a área
     var area = altura * largura;
     document.getElementById("resultado").textContent = `Área:  ${area}  M quadrados.`
