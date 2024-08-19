@@ -111,6 +111,11 @@ footer{
     font-weight: bold;
     font-size: 2em;
 }
+#res{
+    color: blue;
+    font-weight: bold;
+    font-size: 2em;
+}
 @media screen and (max-width: 730px){
 #nav-itens{   
     position: relative;

@@ -26,7 +26,9 @@ function calcular() {
 
     // Calcula a área
     var area = altura * largura;
-    document.getElementById("resultado").textContent = `Área:  ${area}  M quadrados. você prescisaria de ${tinta}L de tinta para pintar sua parede;`
+    document.getElementById("resultado").textContent = `Área:  ${area}  M quadrados.`
+
+    var res = document.getElementById("res").textContent = `você prescisaria de ${tinta}L de tinta para pintar sua parede;`
 
    
 }
