@@ -140,21 +140,24 @@ cursor: pointer;
         border: 0;
         width: 50px;
     }
+    #div-botao{
+        width: 220%;
+    }
     nav{
         margin: auto;
         position: relative;
-        width: 100%;
+        width: 220%;
     }
     
      
     article{
         font-size: 1.3em;
-        width: 100%;
+        width: 220%;
     }
     form{
-        width: 100%;
+        width: 220%;
     }
     footer{
-        width: 100%;
+        width: 220%;
     }
 }
