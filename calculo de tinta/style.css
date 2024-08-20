@@ -141,6 +141,7 @@ cursor: pointer;
         width: 50px;
     }
     #div-botao{
+        padding: 50px;
         width: 220%;
     }
     nav{
