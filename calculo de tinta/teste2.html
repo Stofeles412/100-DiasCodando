@@ -11,7 +11,7 @@
         <input type="text" id="snome">
         <input type="number" id="idade">
 
-        <input type="submit" value="descobrir"  onclick="enviarTela()">
+        <input type="button" value="descobrir"  onclick="enviarTela()">
         <p id="resposta"></p>
         <p id="resposta2">seu sobre nome</p>
         <p id="resposta3">sua idade</p>
@@ -19,14 +19,14 @@
   
     <script>
         function enviarTela(){
-            var nome = document.getElementById("nome")
-            var snome = document.getElementById("snome")
-            var idade = parseInt(document.getElementById("idade").value, 1)
+            var Nome = document.getElementById("nome")
+            var Snome = document.getElementById("snome")
+            var idade = parseInt(document.getElementById("idade").value, 10)
 
             
-            res = document.getElementById("resposta").textContent = `seja bem vindo ${nome}`
+            res = document.getElementById("resposta").textContent =  `seja bem vindo ${Nome}`
 
-            res2 = document.getElementById("resposta2").textContent = `seu sobre nome ${snome}`
+            res2 = document.getElementById("resposta2").textContent = `seu sobre nome ${Snome}`
 
            res3 = document.getElementById("resposta3").textContent = `com ${idade} anos de idade`
        
