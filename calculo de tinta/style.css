@@ -129,8 +129,9 @@ footer{
         margin: 10px;
     }
     #div-botao, button{
+
 cursor: pointer;
-width: 220%;
+
     }
     #nav-img, button{
         display: block;
@@ -142,11 +143,12 @@ width: 220%;
     nav{
         margin: auto;
         position: relative;
-        padding: 50px;
-        width: 220%;
+        width: 100%;
     }
+    
+     
     article{
-        font-size: 2em;
+        font-size: 1.3em;
         width: 220%;
     }
     form{
