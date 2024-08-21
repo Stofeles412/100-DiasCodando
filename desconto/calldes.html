@@ -11,14 +11,23 @@
 <body>
     <h1>calcule o desconto em nossos produtos</h1>
     <main>
-        <legend>5% de desconto</legend>
+        <legend>iremos te informar o valores, com 5% 10% e 20% de desconto !</legend>
      <form action="" method="get">
-        <label for="nome">produto</label>
-<input type="text" name="produto" id="produto">
+      
 
 <label for="valor">valor do produto desejado</label>
 <input type="number" name="valor" id="valor">
+
+<input type="button" value="descontar" onclick="desconto()">
+<input type="reset" value="limpar" class="botao">
+
+<p id="res">5% de desconto</p>
+<p id="res2">10% de desconto</p>
+<p id="res3">20% de desconto</p>
      </form>
+   
     </main>
+  <script src="desc.js"></script>
 </body>
 </html>
+
