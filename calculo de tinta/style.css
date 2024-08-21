@@ -162,9 +162,10 @@ cursor: pointer;
     
      
     article{
+        padding: 30px;
         margin-top: -30%;
         font-size: 1.3em;
-        width: 80%;
+        width: 220%;
     }
     form{
         width: 220%;
