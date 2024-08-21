@@ -107,12 +107,12 @@ footer{
     text-align: center;
 }
 #resultado{
-   color: rgb(0, 119, 255);
+   color: rgb(255, 153, 0);
     font-weight: bold;
     font-size: 2em;
 }
 #res{
-    color: blue;
+    color: rgb(255, 136, 0);
     font-weight: bold;
     font-size: 2em;
 }
