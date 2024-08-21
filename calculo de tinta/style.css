@@ -24,12 +24,19 @@ nav, ul{
     display: flex;
     text-align: center;
 }
+#ol-itens{
+    padding: 50px;
+    border: solid 1px rgba(0, 0, 0, 0.199);
+}
+h2{
+    
+}
 .ul-li, a{
     cursor: pointer;
     font-weight: bold;
     font-size: 1.5em;
   list-style-type: none;
-    color: black;
+    color: rgb(0, 0, 0);
     text-decoration: none;
     margin: 50px;
 }
@@ -118,10 +125,13 @@ footer{
 }
 @media screen and (max-width: 730px){
 #nav-itens{   
-    position: relative;
+    position: fixed;
         display: none;
+      
        
     }
+    
+       
     #header-fundo{
         width: 220%;
     }
@@ -129,14 +139,14 @@ footer{
         margin: 10px;
     }
     #div-botao, button{
-
+        position: relative;
 cursor: pointer;
 
     }
     #nav-img, button{
-        display: block;
-        margin: auto;
+        position: fixed;
         background-color: transparent;
+        display: block;
         border: 0;
         width: 50px;
     }
@@ -152,8 +162,9 @@ cursor: pointer;
     
      
     article{
+        margin-top: -30%;
         font-size: 1.3em;
-        width: 220%;
+        width: 80%;
     }
     form{
         width: 220%;
