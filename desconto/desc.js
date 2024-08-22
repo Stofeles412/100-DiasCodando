@@ -4,6 +4,13 @@ function desconto(){
     var valor = parseFloat(document.getElementById("valor").value);
     var desconto = parseFloat(document.getElementById("des").value)
 
+    var vDes = (valor * desconto) / 100;
+var vFinal = valor - desconto;
+
+
+
+res = document.getElementById("res").textContent = `O produto que custava ${valor}R$ com  %${vDes} de desconto, fica por ${vFinal}R$`
+
 
 
 /*des5 = valor * 5/100
@@ -13,12 +20,7 @@ valorFinal5 = valor - des5
 valorFinal10 = valor - des10
 valorFinal20 = valor - des20*/
 
-vDes = (valor * desconto) / 100;
-var vFinal = valor - desconto;
 
-
-
-res = document.getElementById("res").textContent = `O produto que custava ${valor}R$ com  %${vDes} de desconto, fica por ${vFinal}R$`
 
 /*res2 = document.getElementById("res2").textContent = ` o produto que antes custava ${valor} com 10%  ${des10}R$ Reais de desconto o produto ficará por ${valorFinal10} R$`*/
 
