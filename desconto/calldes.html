@@ -4,11 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora de desconto</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <header>
-
+<h1>descontos</h1>
 </header>
 <body>
+  
     <h1>calcule o desconto em nossos produtos</h1>
     <main>
         <legend>iremos te informar o valores, com 5% 10% e 20% de desconto !</legend>
@@ -18,15 +20,22 @@
 <label for="valor">valor do produto desejado</label>
 <input type="number" name="valor" id="valor">
 
+<label for="des">desconto desejado</label>
+<input type="number" name="des" id="des">
+
 <input type="button" value="descontar" onclick="desconto()">
 <input type="reset" value="limpar" class="botao">
 
-<p id="res">5% de desconto</p>
-<p id="res2">10% de desconto</p>
-<p id="res3">20% de desconto</p>
+
      </form>
    
     </main>
+
+    <article>
+<p id="res">5% de desconto</p>
+<p id="res2">10% de desconto</p>
+<p id="res3">20% de desconto</p>
+    </article>
   <script src="desc.js"></script>
 </body>
 </html>
