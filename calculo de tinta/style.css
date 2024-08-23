@@ -4,7 +4,7 @@
 }
 #div-botao{
     background-color: rgb(209, 173, 11);
-  
+    
 }
 #header-fundo{
    background-image: url(../imagens/pintura-header.jpg);
@@ -63,7 +63,7 @@ form{
 .botao{
     border-radius: 30px;
     cursor: pointer;
-    width: 30%;
+    width: 20%;
     padding: 5px;
     background-color: rgb(45, 48, 46);
     color: azure;
@@ -166,6 +166,9 @@ cursor: pointer;
         margin-top: -30%;
         font-size: 1.3em;
         width: 220%;
+    }
+    input{
+        margin: 5%;
     }
     form{
         width: 220%;
