@@ -28,8 +28,8 @@ nav, ul{
     padding: 50px;
     border: solid 1px rgba(0, 0, 0, 0.199);
 }
-h2{
-    
+article, h2{
+   padding: 100px;
 }
 .ul-li, a{
     cursor: pointer;
