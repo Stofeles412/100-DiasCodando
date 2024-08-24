@@ -3,9 +3,16 @@
     padding: 0;
 }
 header{
+    text-align: center;
     color: rgb(255, 255, 255);
-    background-color: black;
-    padding: 100px;
+    background-color: rgb(5, 32, 9);
+    padding: 200px;
+    margin-bottom: 15%;
+}
+h1{ color: rgb(5, 95, 35);
+    padding: 30px;
+    font-size: 3.5em;
+    margin-bottom: 15%;
 }
 body{
   
@@ -13,7 +20,7 @@ body{
     overflow-x: hidden;
     margin-top: -20%;
 }
-main{
+main{ 
     margin: auto;
     width: 80%;
     padding: 30px;
@@ -25,6 +32,7 @@ input{
     width: 30%;
     padding: 20px;
     margin: 5%;
+    
 }
 label{
     padding: 10px;
@@ -56,6 +64,9 @@ article{
     input{
         margin: 5%;
         width: 70%;
+    }
+    article{
+       margin-top: 10%;
     }
     .botao{
         border: 0;

@@ -7,34 +7,38 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <header>
-<h1>descontos</h1>
+
 </header>
 <body>
+ 
+        <h1>calcule o desconto em nossos produtos</h1>
   
-    <h1>calcule o desconto em nossos produtos</h1>
+  
+   
     <main>
     
-     <form action="" method="get">
+    
       
-
+     <form action="" method="get">
 
 <input type="number" name="valor" id="valor" placeholder="valor em R$">
 <label for="valor">valor do produto</label>
 
 
-<input type="number" name="des" id="des" placeholder="desconto %">
+<input type="number" name="des" id="des" placeholder="desconto %" min="1" max="100">
 <label for="des">desconto desejado</label>
 
 <input type="button" value="descontar" onclick="desconto()" class="botao">
 <input type="reset" value="limpar" class="botao">
 
 
-     </form>
+  </form>
    
     </main>
 
     <article>
 <p id="res"></p>
+<p id="res2"></p>
 
     </article>
   <script src="desc.js"></script>
