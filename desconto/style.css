@@ -10,7 +10,7 @@ header{
 body{
   
     background-color: rgb(159, 167, 164);
-    overflow-y: hidden;
+    overflow-x: hidden;
     margin-top: -20%;
 }
 main{
