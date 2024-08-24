@@ -3,10 +3,10 @@
     padding: 0;
 }
 header{
-    text-align: center;
+    box-shadow: 3px 3px 3px black;
     color: rgb(255, 255, 255);
     background-color: rgb(5, 32, 9);
-    padding: 200px;
+    padding: 100px;
     margin-bottom: 15%;
 }
 h1{ color: rgb(5, 95, 35);
@@ -15,7 +15,6 @@ h1{ color: rgb(5, 95, 35);
     margin-bottom: 15%;
 }
 body{
-  
     background-color: rgb(159, 167, 164);
     overflow-x: hidden;
     margin-top: -20%;
@@ -46,6 +45,7 @@ article{
     color: red;
 }
 .botao{
+    border: 0;
     width: 20%;
 }
 #res{
@@ -61,6 +61,15 @@ article{
         background-color: rgb(4, 64, 64);
         width: 90%;
     }
+    
+    
+    header{
+        padding: 200px;
+        box-shadow: 3px 3px 3px black;
+    color: rgb(255, 255, 255);
+    background-color: rgb(5, 32, 9);
+    }
+    
     input{
         margin: 5%;
         width: 70%;
