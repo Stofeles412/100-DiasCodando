@@ -29,9 +29,13 @@ function calcular() {
     // Calcula a área
     var area = altura * largura;
     var tinta = area/2
-    document.getElementById("resultado").textContent = `A Sua Área é de:  ${area}m².`
 
-    var res = document.getElementById("res").textContent = `você prescisaria de ${tinta}L de tinta para pintar sua parede, considerando 1L de tinta para cada 2m²;`
+    var resultado = document.getElementById("resultado")
+    var res = document.getElementById("res"); 
+   
+     resultado.innerText = `você prescisaria de ${tinta}L de tinta para pintar sua parede, considerando 1L de tinta para cada 2m²`
+    res.innerText = `sua aréa tem ${area} 2m²`
+   
 
    
 }
