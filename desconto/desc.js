@@ -3,7 +3,10 @@ function desconto(){
 
     var valor = parseFloat(document.getElementById("valor").value);
     var desconto = parseFloat(document.getElementById("des").value)
-
+if(isNaN(valor) || isNaN(desconto)){
+    erro = document.getElementById("erro").textContent = `insira valores validos !`
+}
+    
   
     var desc2 = desconto.toFixed(2)
 
@@ -12,7 +15,7 @@ function desconto(){
 
 
 
-res = document.getElementById("res").textContent = `O produto que custava ${valor.toFixed(2)}R$ com  ${vDes.toFixed(1)}% de desconto, fica por ${vFinal.toFixed(2)}R$`
+res = document.getElementById("res").innerText = `O produto que custava ${valor.toFixed(2)}R$ com  ${vDes.toFixed(1)}% de desconto, fica por ${vFinal.toFixed(2)}R$`
 
 
  
