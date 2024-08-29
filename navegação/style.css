@@ -19,7 +19,7 @@ main{
     background-size: cover;
     background-position: center center;
     padding: 10%;
-    width: 25%;
+    width: 10%;
     height: 400px;
     margin: 20px;
     border-radius: 20px;
@@ -33,7 +33,7 @@ main{
     background-size: cover;
     background-position: center center;
     padding: 10%;
-    width: 25%;
+    width: 10%;
     height: 400px;
     margin: 20px;
     border-radius: 20px;
@@ -47,12 +47,46 @@ main{
     background-size: cover;
     background-position: center center;
     padding: 10%;
-    width: 25%;
+    width: 10%;
     height: 400px;
     margin: 20px;
     border-radius: 20px;
    
 
+}
+#tiles-a4{
+    background-image: url(../imagens/fundo-header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 10%;
+    width: 20%;
+    height: 300px;
+    margin: 20px;
+    border-radius: 20px;
+}
+#tiles-a5{
+   background-image: url(../imagens/bolo\ de\ cenoura.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 10%;
+    width: 50%;
+    height: 300px;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+#tiles-a6{
+   background-image: url(../imagens/icone_anime-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 10%;
+    width: 10%;
+    height: 300px;
+    margin: 20px;
+    border-radius: 20px;
 }
 .imagens-tiles{
     width: 70%;
@@ -109,5 +143,17 @@ width: 60%;
     transition: .6s;
     cursor: pointer;
     width: 25%;    
+}
+#tiles-a4{
+    width: 20%;
+    height: 200px;  
+    transition: .6s;  
+}
+#tiles-a4:hover{
+    box-shadow: 3px 3px 3px black;
+    transition: .6s;
+    cursor: pointer;
+    width: 50%;    
+    transition: .6s;
 }
 }
