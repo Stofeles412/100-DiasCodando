@@ -3,11 +3,13 @@
     padding: 0;
 }
 header{
+    width: 100%;
     padding: 100px;
     color: white;
     background-color: rgb(57, 36, 10);
 }
 main{
+    width: 100%;
     display: flex;
     justify-content: center;
     background-color: rgb(187, 178, 178);
