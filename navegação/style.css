@@ -80,7 +80,7 @@ main{
 }
 
 #tiles-a6{
-   background-image: url(../imagens/icone_anime-removebg-preview.png);
+   background-image: url(../imagens/fundo\ natureza.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -136,6 +136,7 @@ width: 60%;
     width: 30%;
 }
 #tiles-a3{
+    margin-right: 10%;
     width: 20%;
     height: 200px;  
     transition: .6s;
@@ -152,6 +153,32 @@ width: 60%;
     transition: .6s;  
 }
 #tiles-a4:hover{
+    box-shadow: 3px 3px 3px black;
+    transition: .6s;
+    cursor: pointer;
+    width: 50%;    
+    transition: .6s;
+}
+#tiles-a5{
+    width: 20%;
+    height: 200px;  
+    transition: .6s;  
+}
+#tiles-a5:hover{
+    box-shadow: 3px 3px 3px black;
+    transition: .6s;
+    cursor: pointer;
+    width: 50%;    
+    transition: .6s;
+}
+#tiles-a6{
+    margin-right: 10%;
+    width: 20%;
+    height: 200px;  
+    transition: .6s;  
+}
+#tiles-a6:hover{
+    margin-right: 5%;
     box-shadow: 3px 3px 3px black;
     transition: .6s;
     cursor: pointer;
