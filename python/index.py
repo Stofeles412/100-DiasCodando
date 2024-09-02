@@ -1,2 +1,3 @@
-nome = input("qual é seu nome ?")
-print = ("seja bem vindo".format(nome))
+nome = input("como se chama ?")
+idade = int(input("qual sua idade ?"))
+print("seja bem vindo(a) {} legal que vc tem {} anos de idade".format(nome, idade))
