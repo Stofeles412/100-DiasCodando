@@ -134,7 +134,7 @@ padding: 5%;
 box-shadow: 3px 3px 3px black;
 transition: .6s;
 cursor: pointer;
-width: 60%;
+
 }
 #tiles-a2{
    margin: 5%;
@@ -148,7 +148,7 @@ width: 60%;
     box-shadow: 3px 3px 3px black;
     transition: .6s;
     cursor: pointer;
-    width: 30%;
+  
 }
 #tiles-a3{
    margin-right: 25%;
@@ -161,7 +161,7 @@ width: 60%;
     box-shadow: 3px 3px 3px black;
     transition: .6s;
     cursor: pointer;
-    width: 25%;    
+     
 }
 #tiles-a4{
     margin: 5%;
@@ -175,7 +175,6 @@ width: 60%;
     box-shadow: 3px 3px 3px black;
     transition: .6s;
     cursor: pointer;
-    width: 50%;    
     transition: .6s;
 }
 #tiles-a5{
@@ -189,23 +188,20 @@ width: 60%;
 #tiles-a5:hover{
     box-shadow: 3px 3px 3px black;
     transition: .6s;
-    cursor: pointer;
-    width: 50%;    
+    cursor: pointer;  
     transition: .6s;
 }
 #tiles-a6{
-    margin-right: 25%;
+    margin-right: 30%;
     margin-top: 0%;
     width: 30%;
     height: 200px;  
     transition: .6s;  
 }
 #tiles-a6:hover{
-    margin-right: 5%;
     box-shadow: 3px 3px 3px black;
     transition: .6s;
-    cursor: pointer;
-    width: 50%;    
+    cursor: pointer;   
     transition: .6s;
 }
 }
