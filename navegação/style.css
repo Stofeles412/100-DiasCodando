@@ -9,11 +9,14 @@ header{
     background-color: rgb(57, 36, 10);
 }
 main{
+  margin: auto;
     width: 100%;
-    display: flex;
+    display: flexbox;
     justify-content: center;
     background-color: rgb(187, 178, 178);
     border: solid 1px rgba(0, 0, 0, 0.447);
+  
+
 }
 #tiles-a{
     background-image: url(../imagens/abertura\ do\ castelo\ img.png);
@@ -21,9 +24,10 @@ main{
     background-size: cover;
     background-position: center center;
     padding: 10%;
-    width: 15%;
+    width: 40%;
     height: 400px;
-    margin: 15px;
+    margin: auto;
+    margin-top: 50%;
     border-radius: 20px;
     transition: .6s;
    
@@ -35,9 +39,10 @@ main{
     background-size: cover;
     background-position: center center;
     padding: 10%;
-    width: 15%;
+    width: 40%;
     height: 400px;
-    margin: 20px;
+    margin: auto;
+    margin-top: 50%;
     border-radius: 20px;
     transition: .6s;
    
@@ -49,9 +54,10 @@ main{
     background-size: cover;
     background-position: center center;
     padding: 10%;
-    width: 20%;
+    width: 40%;
     height: 400px;
-    margin: 20px;
+    margin: auto;
+    margin-top: 50%;
     border-radius: 20px;
    
 
@@ -62,9 +68,10 @@ main{
     background-size: cover;
     background-position: center center;
     padding: 10%;
-    width: 20%;
-    height: 300px;
-    margin: 20px;
+    width: 40%;
+    height: 400px;
+    margin: auto;
+    margin-top: 50%;
     border-radius: 20px;
 }
 #tiles-a5{
@@ -73,9 +80,10 @@ main{
     background-size: cover;
     background-position: center center;
     padding: 10%;
-    width: 50%;
-    height: 300px;
-    margin: 20px;
+    width: 40%;
+    height: 400px;
+   margin: auto;
+   margin-top: 50%;
     border-radius: 20px;
 }
 
@@ -85,13 +93,14 @@ main{
     background-size: cover;
     background-position: center center;
     padding: 10%;
-    width: 10%;
+    width: 40%;
     height: 300px;
-    margin: 20px;
+    margin: auto;
+    margin-top: 50%;
     border-radius: 20px;
 }
 .imagens-tiles{
-    width: 70%;
+    width: 30%;
 
    
 }
@@ -111,12 +120,15 @@ header{
     background-color: rgb(57, 36, 10);
 }
 main{
+  display: flex;
 padding: 5%;
 }
 #tiles-a{
-    margin: auto;
-    width: 50%;
-    height: 150px;
+  margin-top: 0%;
+  margin-left: 10%;
+    width: 30%;
+    height: 200px;
+    transition: .6s;
 }
 #tiles-a:hover{  
 box-shadow: 3px 3px 3px black;
@@ -125,9 +137,12 @@ cursor: pointer;
 width: 60%;
 }
 #tiles-a2{
-    margin: left;
-    width: 20%;
+   margin: 5%;
+   margin-top: 0%;
+    
+    width: 30%;
     height: 200px;
+    transition: .6s;
 }
 #tiles-a2:hover{
     box-shadow: 3px 3px 3px black;
@@ -136,8 +151,9 @@ width: 60%;
     width: 30%;
 }
 #tiles-a3{
-    margin-right: 10%;
-    width: 20%;
+   margin-right: 25%;
+   margin-top: 0%;
+    width: 30%;
     height: 200px;  
     transition: .6s;
 }
@@ -148,7 +164,10 @@ width: 60%;
     width: 25%;    
 }
 #tiles-a4{
-    width: 20%;
+    margin: 5%;
+    margin-left: 15%;
+    margin-top: 0%;
+    width: 30%;
     height: 200px;  
     transition: .6s;  
 }
@@ -160,7 +179,10 @@ width: 60%;
     transition: .6s;
 }
 #tiles-a5{
-    width: 20%;
+    width: 40%;
+    margin: 5%;
+    margin-right: 10%;
+    margin-top: 0%;
     height: 200px;  
     transition: .6s;  
 }
@@ -172,8 +194,9 @@ width: 60%;
     transition: .6s;
 }
 #tiles-a6{
-    margin-right: 10%;
-    width: 20%;
+    margin-right: 25%;
+    margin-top: 0%;
+    width: 30%;
     height: 200px;  
     transition: .6s;  
 }
