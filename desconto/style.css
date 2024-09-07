@@ -58,8 +58,16 @@ article{
     width: 50%;
     font-weight: bold;
 }
+li, a{
+    cursor: pointer;
+    color: rgb(1, 193, 240);
+    padding: 30px;
+   list-style-type: none;
+    text-decoration: none;
+}
 footer{
     font-size: 2em;
+    margin-top: 50%;
     font-weight: bold;
     padding: 50px;
     color: aliceblue;
@@ -74,8 +82,8 @@ footer{
     
     
     header{
-        padding: 200px;
-        box-shadow: 3px 3px 3px black;
+    padding: 200px;
+    box-shadow: 3px 3px 3px black;
     color: rgb(255, 255, 255);
     background-color: rgb(5, 32, 9);
     }
