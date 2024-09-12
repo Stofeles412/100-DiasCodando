@@ -35,6 +35,12 @@ color: brown;
   
 </body>
 
+<input type="number" value="ano atual" name="ano-atual" id="ano-atual">
+<input type="number" value="ano que vc nasceu" name="ano-nasci" id="ano-nasci">
+<button onclick="anonasciemnto()">contar</button>
+
+<p id="res-nascimento">resultado</p>
+
 <script>
     function callN(){
         var n1 = parseFloat(document.getElementById("n1").value, 1)
@@ -60,6 +66,21 @@ color: brown;
 
      var res5 = document.getElementById("res5").textContent = `fim do progrma`
        
+    }
+
+    function anonasciemnto(){
+var anoAtual = parseInt(document.getElementById("ano-atual").value)
+var anoNasci = parseInt(document.getElementById("ano-nasci").value)
+idade = anoAtual - anoNasci
+
+if(anoAtual == 2024) {
+res = document.getElementById("res-nascimento").innerText = `considerando o ano de  ${anoAtual} vc tem ${idade} anos de idade`
+}else{
+    res = document.getElementById("res-nascimento").innerText = `considerando o ano de  ${anoAtual} vc tinha ${idade} anos de idade nesse ano`
+}if(anoAtual > 2024){
+    res = document.getElementById("res-nascimento").innerText = `considerando o ano de  ${anoAtual} vc irá  ter ${idade} anos de idade`
+}
+
     }
 </script>
 </html>

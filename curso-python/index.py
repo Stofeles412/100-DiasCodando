@@ -1,4 +1,7 @@
 nome = input("como se chama ?")
-idade = int(input("qual sua idade ?"))
+ano = 2024
 nascimento = int(input("qual ano voce nasceu ?"))
-print("seja bem vindo(a) {} legal que vc tem {} anos de idade nascido(a) no ano de {}".format(nome, idade, nascimento))
+idade = ano - nascimento
+
+print("seja bem vindo(a) {}".format(nome))
+print("já que você nasceu no ano de {} atualmente você tem {} anos de idade, considerando o ano de 2024" .format(nascimento, idade))
