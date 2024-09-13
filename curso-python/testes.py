@@ -1,0 +1,5 @@
+frase = ("curso em video python")
+print(frase.split())
+dividido = frase.split()
+print(frase)
+print(dividido[1])
