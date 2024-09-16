@@ -112,6 +112,13 @@ main{
     text-decoration: none;
     font-size: 2em;
 }
+.botao-passe{
+    background-color: aqua;
+    padding: 100px;
+}
+.hidden{
+    display: none;
+}
 
 @media screen and (min-width: 1000px){
 header{
@@ -204,5 +211,19 @@ cursor: pointer;
     transition: .6s;
     cursor: pointer;   
     transition: .6s;
+}
+.botao-passe{
+    cursor: pointer;
+    margin: auto;
+    font-weight: bold;
+    font-size: 2em;
+    width: 100%;
+    display: block;
+    background-color: rgb(91, 47, 3);
+    color: rgb(247, 247, 247);
+    padding: 30px;
+}
+.hidden{
+    display: none;
 }
 }

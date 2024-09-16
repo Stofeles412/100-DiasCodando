@@ -1,0 +1,51 @@
+*{ font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+body{
+    overflow-x: hidden;
+}
+main{
+    border: solid 1px black;
+    margin: auto;
+   display: grid;
+    color: rgb(254, 254, 254);
+    background-color: black;
+   
+}
+img{
+    width: 70%;
+}
+#containe1{
+    padding: 50px;
+    margin-right: 10%;
+   
+   
+}
+#containe2{
+    padding: 50px;
+    margin-right: 10%;
+}
+#containe3{
+    padding: 50px;
+    margin-right: 10%;
+   
+    
+}
+#containe4{
+    padding: 50px;
+    margin-right: 10%;
+ 
+  
+}
+.botao-passe{
+    font-size: 2em;
+    background-color:rgb(40, 35, 35) ;
+    color: white;
+    font-weight: bold;
+    padding: 1%;
+    cursor: pointer;
+}
+.hidden{
+    display: none;
+}
