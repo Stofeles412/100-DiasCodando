@@ -13,7 +13,7 @@ main{
     width: 100%;
     display: flexbox;
     justify-content: center;
-    background-color: rgb(39, 24, 24);
+  
   
   
 
@@ -143,8 +143,10 @@ padding: 5%;
     width: 30%;
     height: 200px;
     transition: .6s;
+   border: solid 2px black;
   
 }
+
 #tiles-a:hover{  
 box-shadow: 3px 3px 3px black;
 transition: .6s;
@@ -154,7 +156,6 @@ cursor: pointer;
 #tiles-a2{
    margin: 5%;
    margin-top: 0%;
-    
     width: 30%;
     height: 200px;
     transition: .6s;
