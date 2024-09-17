@@ -6,16 +6,17 @@ function passeImg(){
     if(div1.classList.contains ("hidden")){
         div1.classList.remove("hidden")
         div2.classList.remove("hidden")
-        div3.classList.add("hidden")
-        div4.classList.add("hidden")
+        div3.classList.remove("hidden")
+        div4.classList.remove("hidden")
 
 
     }else{
         div1.classList.add("hidden")
-        div2.classList.add("hidden")
-        div3.classList.remove("hidden")
-        div4.classList.remove("hidden")
+        div2.classList.remove("hidden")
+        div3.classList.add("hidden")
+        div4.classList.add("hidden")
     
       
     }
 }
+    
