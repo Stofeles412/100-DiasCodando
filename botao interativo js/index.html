@@ -44,3 +44,49 @@
     </main>
 </body>
 </html>
+
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .hidden{
+        display: none;
+        width: 66%;
+    }
+    button{
+        font-size: 2em;
+        width: 50%;
+        padding: 1%;
+        background-color: black;
+        color: aliceblue;
+        font-weight: bold;
+    }
+</style>
+<body>
+    <h2>vejam algumas das fotos</h2>
+    <main>
+<img src="../imagens/Jogos-sem-data-de-lancamento-para-2024-1024x576.jpg.webp" alt="">
+
+<img src="../imagens/abertura do castelo img.png" alt="" class="hidden">
+
+<img src="../imagens/fundo natureza.jpg" alt="" class="hidden">
+
+<img src="../imagens/kimetsu img1.png" alt="" class="hidden">
+
+<img src="../imagens/pintura-header.jpg" alt="" class="hidden">
+
+<button onclick="passeImg()"> > </button>
+    </main>
+  <script>
+    function passeImg(){
+        var imagens = document.getElementsByClassName("hidden")
+    }
+  </script>
+</body>
+</html>
