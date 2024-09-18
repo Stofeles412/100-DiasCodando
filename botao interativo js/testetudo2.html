@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body{
+           
+        }
+        img{
+            height: auto;
+        }
+        button{
+            color: aliceblue;
+            font-weight: bold;
+            position: absolute;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            background-color: rgba(0, 0, 255, 0.178);
+        }
+        .prev{
+         top:  300px;
+         left: 2%;
+           
+        }
+        .next{
+            top:  300px;
+            left: 60%;
+        }
+    </style>
+</head>
+<body>
+    <input type="text" name="nome" id="nome">
+    <input type="number" name="n1" id="n1">
+    <input type="number" name="n2" id="n2">
+
+    <button onclick="callcular()">calcular</button>
+
+    <p id="res"></p>
+
+    <img src="../imagens/Jogos-sem-data-de-lancamento-para-2024-1024x576.jpg.webp" alt="">
+
+    <button class="prev"> < </button> <button class="next"> > </button>
+</body>
+<script>
+    function callcular(){
+
+        var nome = document.getElementById("nome").value
+
+        var n1 = parseInt( document.getElementById("n1").value);
+
+        var n2 = parseInt(document.getElementById ("n2").value)
+
+        soma = n1 * n2
+
+        res = document.getElementById("res").innerText = (`olá ${nome} resultado da soma de ${n1} x ${n2} = ${soma}`)
+    }
+</script>
+</html>
