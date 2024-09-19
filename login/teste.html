@@ -22,6 +22,7 @@
             background-color: rgb(217, 218, 218);
         }
         #card1{
+            height: 800px;
           
         }
         .botao-comprar{
@@ -31,9 +32,22 @@
             background-color: black;
             width: 100%;
             padding: 3%;
+            cursor: pointer;
         }
         #pai2{
             margin-top: 20%;
+        }
+        #esconder{
+            display: none;
+        }
+        #botao-comprar{
+            margin-top: 50%;
+            font-weight: bold;
+            color: aliceblue;
+            background-color: black;
+            width: 100%;
+            padding: 3%;
+            cursor: pointer;
         }
 
     </style>
@@ -47,8 +61,12 @@
            <img src="../imagens/bolo de cenoura.webp" alt=""> 
 
            <p>bolo de cenoura com  cobertrura de xcholate delecu</p>
+            
+           <p id="esconder">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, suscipit ratione? Exercitationem sed laborum quam quisquam laudantium, molestias ex! Libero, explicabo. Temporibus enim obcaecati atque officiis, placeat impedit. Neque, corporis!</p>
 
            <button class="botao-comprar">comprar</button>
+           <button id="botao-comprar" onclick="saberMais()">saiba mais</button>
+
         </div>
 
         <div id="card2">
@@ -146,5 +164,22 @@
         </div>
 
     </main>
+    <script>
+        function saberMais(){
+          var saibaMais = document.getElementById("esconder")  
+
+          botao = document.getElementById("botao-comprar")
+
+          if(saibaMais.style.display == "none"){
+            saibaMais.style.display = "block"
+            botao.textContent = "voltar";
+           
+          }else{
+            saibaMais.style.display = "none"
+            botao.textContent = "saiba mais";
+            
+          }
+        }
+    </script>
 </body>
 </html>
