@@ -65,3 +65,11 @@ footer{
     padding: 20px;
     background-color: rgb(14, 101, 243);
 }
+#h2-a{
+   
+    text-align: right;
+    color: blue;
+}
+#containe-a{
+    display: flex;
+}
