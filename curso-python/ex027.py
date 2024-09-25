@@ -1,0 +1,5 @@
+n = str (input ("digite o seu nome completo :")).strip()
+nome = n.split()
+print("seu primeiro nome é {}".format(nome[0]))
+print("Seu segundo nome {}".format(nome[2]))
+print("E seu sobre nome é {}".format(nome[3]))
