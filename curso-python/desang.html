@@ -1,141 +1,23 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <style>
-        *{ font-family: Arial, Helvetica, sans-serif;
-            padding: 0;
-            margin: 0;
-        }
-        header{
-            margin-bottom: -5%;
-            padding: 5%;
-            color: aliceblue;
-            background-color: rgb(85, 84, 84);
-        }
-        main{
-            border: solid 1px rgba(0, 0, 0, 0.578);
-          box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.463);
-          margin: auto;
-            width: 80%;
-            padding: 5%;
-            background-color: rgb(249, 249, 249);
-        }
-        h2{
-            padding: 3%;
-            font-size: 2em;
-            color: rgb(10, 152, 152);
-        }
-        img{
-           
-           transition: .2s;
-            width: 70%;
-        }
-        img:hover{
-            transition:.2s;
-            border: solid 5px rgb(3, 184, 245);
-           
-           
-        }
-        article{
-            box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.463);
-            margin: auto;
-            width: 80%;
-            padding: 5%;
-            background-color: rgb(129, 101, 101);
-        }
-        button{
-            cursor: pointer;
-            width: 100%;
-            font-weight: bold;
-            background-color: rgb(180, 166, 166);
-            padding: 1%;
-           
-        }
-        #art{
-            display: none;
-        }
-    </style>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
-    <header>
+    <label for="n1">digite um numero</label>
+    <input type="number" name="n1" id="n1">
 
-    </header>
+    <button onclick="sortear()">sortear</button>
 
-    <main>
-        <h2>apenas um teste de estilo</h2>
-
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam reprehenderit eum vel aliquam cupiditate quae. Consequuntur, nobis, accusamus corrupti dignissimos minima repudiandae magni corporis harum eum ea qui! Odit, voluptatum. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error eligendi ipsa animi praesentium? Quis dignissimos dolorem velit itaque officiis eum aspernatur animi non earum! Itaque autem cum fugit vero molestias.</p>
-
-        <h2>apenas um teste de estilo</h2>
-
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam reprehenderit eum vel aliquam cupiditate quae. Consequuntur, nobis, accusamus corrupti dignissimos minima repudiandae magni corporis harum eum ea qui! Odit, voluptatum. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error eligendi ipsa animi praesentium? Quis dignissimos dolorem velit itaque officiis eum aspernatur animi non earum! Itaque autem cum fugit vero molestias.</p>
-
-        <h2>apenas um teste de estilo</h2>
-
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam reprehenderit eum vel aliquam cupiditate quae. Consequuntur, nobis, accusamus corrupti dignissimos minima repudiandae magni corporis harum eum ea qui! Odit, voluptatum. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error eligendi ipsa animi praesentium? Quis dignissimos dolorem velit itaque officiis eum aspernatur animi non earum! Itaque autem cum fugit vero molestias.</p>
-
-
-        <img src="../imagens/Jogos-sem-data-de-lancamento-para-2024-1024x576.jpg.webp" alt="">
-
-        <h2>apenas um teste de estilo</h2>
-
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam reprehenderit eum vel aliquam cupiditate quae. Consequuntur, nobis, accusamus corrupti dignissimos minima repudiandae magni corporis harum eum ea qui! Odit, voluptatum. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error eligendi ipsa animi praesentium? Quis dignissimos dolorem velit itaque officiis eum aspernatur animi non earum! Itaque autem cum fugit vero molestias.</p>
-
-        <h2>apenas um teste de estilo</h2>
-
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam reprehenderit eum vel aliquam cupiditate quae. Consequuntur, nobis, accusamus corrupti dignissimos minima repudiandae magni corporis harum eum ea qui! Odit, voluptatum. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error eligendi ipsa animi praesentium? Quis dignissimos dolorem velit itaque officiis eum aspernatur animi non earum! Itaque autem cum fugit vero molestias.</p>
-
-        <h2>apenas um teste de estilo</h2>
-
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam reprehenderit eum vel aliquam cupiditate quae. Consequuntur, nobis, accusamus corrupti dignissimos minima repudiandae magni corporis harum eum ea qui! Odit, voluptatum. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error eligendi ipsa animi praesentium? Quis dignissimos dolorem velit itaque officiis eum aspernatur animi non earum! Itaque autem cum fugit vero molestias.</p>
-
-
-        <img src="../imagens/Jogos-sem-data-de-lancamento-para-2024-1024x576.jpg.webp" alt="">
-
-        <h2>apenas um teste de estilo</h2>
-
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam reprehenderit eum vel aliquam cupiditate quae. Consequuntur, nobis, accusamus corrupti dignissimos minima repudiandae magni corporis harum eum ea qui! Odit, voluptatum. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error eligendi ipsa animi praesentium? Quis dignissimos dolorem velit itaque officiis eum aspernatur animi non earum! Itaque autem cum fugit vero molestias.</p>
-
-        <h2>apenas um teste de estilo</h2>
-
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam reprehenderit eum vel aliquam cupiditate quae. Consequuntur, nobis, accusamus corrupti dignissimos minima repudiandae magni corporis harum eum ea qui! Odit, voluptatum. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error eligendi ipsa animi praesentium? Quis dignissimos dolorem velit itaque officiis eum aspernatur animi non earum! Itaque autem cum fugit vero molestias.</p>
-
-        <h2>apenas um teste de estilo</h2>
-
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam reprehenderit eum vel aliquam cupiditate quae. Consequuntur, nobis, accusamus corrupti dignissimos minima repudiandae magni corporis harum eum ea qui! Odit, voluptatum. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error eligendi ipsa animi praesentium? Quis dignissimos dolorem velit itaque officiis eum aspernatur animi non earum! Itaque autem cum fugit vero molestias.</p>
-
-
-        <img src="../imagens/Jogos-sem-data-de-lancamento-para-2024-1024x576.jpg.webp" alt="">
-    </main>
-<button onclick="mostrar()" id="botao">mais</button>
-    <article id="art">
-        <h2>tudo sobre os jogos</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus veniam, unde sit hic delectus aperiam fugit ut neque ipsam cumque iure earum, blanditiis expedita, nulla aspernatur provident error commodi voluptatibus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas itaque repudiandae velit, minima blanditiis neque natus? Nobis, sapiente id commodi expedita aut repellendus quod dolore asperiores. Quam officia fugiat nihil.</p>
-
-        <img src="../imagens/abertura do castelo img.png" alt="">
-
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero enim fugiat dolorem asperiores aspernatur sapiente numquam consectetur itaque doloremque nemo voluptates doloribus voluptas tempora ducimus, iste suscipit! Non, maiores libero!</p>
-    </article>
-
-    <script>
-        function mostrar(){
-            var artigo = document.getElementById("art")
-            var botao = document.getElementById("botao")
-            if(artigo.style.display == "none")  {
-                artigo.style.display = "block"
-                botao.textContent = ("ocultar")
-              
-                
-            } else{
-                artigo.style.display = "none"
-                botao.textContent  = ("mais")
-               
-            } 
-
-            }
-    </script>
+    <p id="resultado"></p>
 </body>
+<script>
+    function sortear(){
+        var n1 = parseInt (document.getElementById("n1").value)
+        nsorteado = math.floor(Math.random() * n1) + 1
+        var res = document.getElementById("resultado").innerText = `o resulrtado do sorteio é ${nsorteado}`;
+    }
+</script>
 </html>
