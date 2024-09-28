@@ -15,7 +15,9 @@ if(isNaN(valor) || isNaN(desconto)){
 
 
 
-res = document.getElementById("res").innerText = `O produto que custava ${valor.toFixed(2)}R$ com  ${vDes.toFixed(1)}% de desconto, fica por ${vFinal.toFixed(2)}R$`
+    res = document.getElementById("res").innerText = `O produto que custava ${valor.toFixed(2)}R$ com  ${vDes.toFixed(1)}% de desconto, fica por ${vFinal.toFixed(2)}R$`
+
+
 
 
  

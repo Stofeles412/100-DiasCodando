@@ -1,5 +1,5 @@
-frase = ("curso em video python")
-print(frase.split())
-dividido = frase.split()
-print(frase)
-print(dividido[1])
+from time import sleep
+n1 = int (input("digite um numero"))
+print("processando")
+sleep(3)
+print("numero digitado foi {}".format(n1))

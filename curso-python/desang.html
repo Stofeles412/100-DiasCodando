@@ -11,13 +11,15 @@
 
     <button onclick="sortear()">sortear</button>
 
-    <p id="resultado"></p>
+    <p id="resultado">...</p>
 </body>
 <script>
     function sortear(){
         var n1 = parseInt (document.getElementById("n1").value)
-        nsorteado = math.floor(Math.random() * n1) + 1
-        var res = document.getElementById("resultado").innerText = `o resulrtado do sorteio é ${nsorteado}`;
+        nsorteado = Math.floor(Math.random() * n1) + 1
+        setTimeout(() => {
+            document.getElementById("resultado").innerText = `O resultado do sorteio é ${nsorteado}`;
+        }, 2000);
     }
 </script>
 </html>
