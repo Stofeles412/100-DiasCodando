@@ -1,18 +1,6 @@
-a = int (input("digite o primeiro valor"))
-b = int (input("digite o segundo valor"))
-c = int (input("digite o terceiro valor"))
-menor = a
-if b<a and b<c:
-    menor = b
-if c<a and c<b:
-        menor = c
-
-
-maior = a
-if b>a and b>c:
-    maior = a
-if c>a and c>b:
-    maior = c 
-print("O menor valor é o {}".format(menor))
-print("o maior valor digitando foi p {}".format(maior))
-  
+sal = float (input("Qual o salario do funcionario R$ ?"))
+if sal <= 1250:
+    novo =  sal + (sal * 15 / 100)
+else:
+    novo = sal + (sal * 10 / 100)
+print("O seu salario de {:.2f} com um aumento, você vai passar a ganhar R${:.2f}".format( sal, novo)) 

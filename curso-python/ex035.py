@@ -1,6 +1,10 @@
-sal = float (input("Qual o salario do funcionario R$ ?"))
-if sal <= 1250:
-    novo =  sal + (sal * 15 / 100)
+print("-="*20)
+print("analisador de triângulos")
+print("-=" *20)
+r1 = float (input("digite o primeiro seguimento"))
+r2 = float (input("digite o segundo seguimento"))
+r3 = float (input("digite o terceiro seguimento"))
+if r1 < r2 + r3 and r2 < r1 + r3 and r3 < r1 + r2:
+    print("Os seguimentos a cima, formam um triângulo")
 else:
-    novo = sal + (sal * 10 / 100)
-print("O seu salario de {:.2f} com um aumento, você vai passar a ganhar R${:.2f}".format( sal, novo)) 
+    print("Os seguimentos não formam um trianâgulo")

@@ -1,7 +1,18 @@
-from datetime import date
-ano = int (input("que ano quer analisar ? Coloque o 0, para analisar o ano atual")) 
-if ano == 0:
-    ano = date.today().year
-if ano % 4 == 0 and ano % 100 != 0 or ano % 400 == 0:
-    print("o ano de {} é bissexto".format(ano))
-else:print("{} não é bissexto".format(ano))
+a = int (input("digite o primeiro valor"))
+b = int (input("digite o segundo valor"))
+c = int (input("digite o terceiro valor"))
+menor = a
+if b<a and b<c:
+    menor = b
+if c<a and c<b:
+        menor = c
+
+
+maior = a
+if b>a and b>c:
+    maior = a
+if c>a and c>b:
+    maior = c 
+print("O menor valor é o {}".format(menor))
+print("o maior valor digitando foi p {}".format(maior))
+  
