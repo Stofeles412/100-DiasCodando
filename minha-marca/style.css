@@ -26,25 +26,60 @@ body{
     background-color: rgb(255, 255, 255);
 }
 h1{
+    font-size: 3em;
+    margin-bottom: 10%;
     color: blueviolet;
 }
+h2{
+    margin-bottom: 5%;
+    font-size: 2.5em;
+}
+main, p{
+    font-size: 1.2em;
+}
 ul, li{
-    background-color: rgb(96, 95, 95);
+    font-size: 1.2em;
     font-weight: bold;
     border-radius: 3px;
     padding: 5px;
-   color: rgb(121, 8, 228);
+   color: rgb(129, 4, 247);
     
 }
 #botao-projetos{
     border: 0;
     cursor: pointer;
     font-size: 1.5em;
-    font-weight: bold;
-    background-color: rgb(187, 134, 236);
+    font-weight: bold; 
     width: 100%;
 }
 #art-projetos{
+    padding: 4%;
+    background-color: rgb(238, 221, 197);
+    margin-top: 10%;
    display: none;
     
+}
+.art-a{
+    color: blueviolet;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 2em;
+}
+div{
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.419);
+    box-shadow: 3px 3px 3px black;
+    background-color: rgb(37, 37, 37);
+    border: solid 2px black;
+
+}
+#card2{
+background-color: rgb(52, 51, 51);
+}
+#card4{
+background-color: rgb(52, 51, 51); 
+}
+footer{
+    font-weight: bold;
+    padding: 10%;
+    background-color: rgb(140, 127, 255);
 }
