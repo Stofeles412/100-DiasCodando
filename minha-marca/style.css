@@ -55,14 +55,17 @@ ul, li{
     width: 100%;
 }
 #art-projetos{
+    margin: auto;
+    width: 80%;
+    border-radius: 30px;
     padding: 4%;
-    background-color: rgb(238, 221, 197);
+    background-color: rgb(63, 59, 54);
     margin-top: 10%;
    display: none;
     
 }
 .art-a{
-    color: blueviolet;
+    color: rgb(255, 255, 255);
     text-decoration: none;
     font-weight: bold;
     font-size: 2em;
@@ -72,7 +75,7 @@ ul, li{
 }
 div{
     text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.419);
-    box-shadow: 3px 3px 3px black;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.542);
     background-color: rgb(37, 37, 37);
     border: solid 2px black;
 
@@ -84,7 +87,14 @@ background-color: rgb(52, 51, 51);
 background-color: rgb(52, 51, 51); 
 }
 footer{
+    text-align: center;
+    margin-top: 30%;
+    padding: 5%;
+    background-color: rgb(30, 19, 126);
+}
+footer, a{
+    line-height: 50px;
+    color: aliceblue;
     font-weight: bold;
-    padding: 10%;
-    background-color: rgb(140, 127, 255);
+   text-decoration: none;
 }
