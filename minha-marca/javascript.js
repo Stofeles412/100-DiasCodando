@@ -3,10 +3,12 @@ function Mostrar(){
     var projetos = document.getElementById("art-projetos")
     if(projetos.style.display == "none"){
         projetos.style.display = "block"
-          botao.innerText = "Ocultar"
+         botao.innerText = "Ocultar"
+      
       
     }else{
         projetos.style.display = "none"
+           botao.innerText = "Ver Mais"
      
       
     }

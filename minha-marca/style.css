@@ -87,11 +87,18 @@ background-color: rgb(52, 51, 51);
 #card4{
 background-color: rgb(52, 51, 51); 
 }
+img{
+    width: 5%;
+}
+.icone-1{
+    margin-right: 100px;
+}
 footer{
+    display: block;
     text-align: center;
     margin-top: 30%;
     padding: 5%;
-    background-color: rgb(30, 19, 126);
+    background-color: rgb(6, 2, 44);
 }
 footer, a{
     line-height: 50px;
@@ -101,6 +108,7 @@ footer, a{
 }
 @media  screen and (max-width: 700px){
     #containe-principal{
+        width: 70%;
        line-height: 60px;
     }
     .card-img{
@@ -108,5 +116,14 @@ footer, a{
     }
     div{
         height: 100%;
+    }
+    footer{
+        display: block;
+    }
+    img{
+        width: 10%;
+    }
+    .icone-1{
+     margin-right: 100px;
     }
 }
