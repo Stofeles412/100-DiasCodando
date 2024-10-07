@@ -4,11 +4,13 @@ function Mostrar(){
     if(projetos.style.display == "none"){
         projetos.style.display = "block"
          botao.innerText = "Ocultar"
+         botao.style.color = "blue"
       
       
     }else{
         projetos.style.display = "none"
-           botao.innerText = "Ver Mais"
+           botao.innerText = "Veja Mais"
+        botao.style.color = "red"
      
       
     }
