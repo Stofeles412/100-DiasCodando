@@ -10,7 +10,7 @@ function Mostrar(){
     }else{
         projetos.style.display = "none"
            botao.innerText = "Veja Mais"
-        botao.style.color = "red"
+        botao.style.color = "blueviolet"
      
       
     }
