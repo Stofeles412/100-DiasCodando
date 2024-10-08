@@ -15,3 +15,17 @@ function Mostrar(){
       
     }
 }
+
+function mudarTema(){
+    var fundo = document.getElementById ("containe-principal")
+    botaoTema = document.getElementById ("botao-tema")
+    if (fundo.style.background == "white"){
+        fundo.style.background = "black"
+        fundo.style.color = "darkgray"
+        botaoTema.innerText = "claro"
+    }else{
+        fundo.style.background = "white"
+        fundo.style.color = "black"
+        botaoTema.innerText = "escuro"
+    }
+}
