@@ -5,7 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>cards</title>
     <style>
-        main{
+        body{
+            background-color: rgb(255, 255, 255);
+        }
+        #containe-principal{
+            background-color: white;
            display: flex;
         }
         img{
@@ -49,12 +53,14 @@
             padding: 3%;
             cursor: pointer;
         }
+        
 
     </style>
 </head>
 <body>
     <h1>loja virtual</h1>
-    <main>
+    <main id="containe-principal">
+        <button onclick="Mudar()" id="botao">mudar</button>
         <div id="card1">
             <h2>bolo de cenoura</h2>
 
@@ -179,6 +185,20 @@
             botao.textContent = "saiba mais";
             
           }
+        }
+        function Mudar(){
+            var fundo = document.getElementById("containe-principal")
+            botao = document.getElementById("botao")
+            if (fundo.style.background == "white"){
+                fundo.style.background = "black"
+                   botao.innerText = "Branco"
+                 
+          
+            }else{
+                fundo.style.background = "white"
+                   botao.innerText = "Preto"
+               
+            }
         }
     </script>
 </body>
