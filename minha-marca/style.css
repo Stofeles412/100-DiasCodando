@@ -55,6 +55,13 @@ ul, li{
     font-weight: bold; 
     width: 100%;
 }
+#botao-tema{
+  width: 100%;
+    background-color: rgba(125, 123, 123, 0.501);
+    cursor: pointer;
+    padding: 1px;
+    border: 0;
+}
 #art-projetos{
     margin: auto;
     width: 80%;

@@ -19,13 +19,15 @@ function Mostrar(){
 function mudarTema(){
     var fundo = document.getElementById ("containe-principal")
     botaoTema = document.getElementById ("botao-tema")
+    var icone = document.getElementById("icone-tema")
     if (fundo.style.background == "white"){
         fundo.style.background = "black"
         fundo.style.color = "darkgray"
-        botaoTema.innerText = "claro"
+          icone.src = "../imagens/brilho-do-sol.png"
+      
     }else{
         fundo.style.background = "white"
         fundo.style.color = "black"
-        botaoTema.innerText = "escuro"
+         icone.src = "../imagens/lua-crescente.png"
     }
 }
