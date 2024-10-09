@@ -21,7 +21,7 @@ function mudarTema(){
     var fundo = document.getElementById ("containe-principal")
     botaoTema = document.getElementById ("botao-tema")
     var icone = document.getElementById("icone-tema")
-    if (fundo.style.background == "white"){
+    if (fundo.style.background === "white"){
         fundo.style.background = "black"
         corpo.style.background = "gray"
         fundo.style.color = "darkgray"

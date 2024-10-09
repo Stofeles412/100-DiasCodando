@@ -12,9 +12,12 @@ margin: 0;
   background-image: url(../imagens/header-fundo.webp);
 }
 body{
+    overflow-x: hidden;
     width: 100vw;
     height: 100vh;
 }
+
+
 #containe-principal{
     border: solid 2px black;
     line-height: 60px;
@@ -48,7 +51,7 @@ ul, li{
     
 }
 #botao-projetos{
-    background-color: rgb(125, 125, 131);
+    background-color: rgba(167, 169, 194, 0.144);
     border: 0;
     cursor: pointer;
     font-size: 1.5em;
