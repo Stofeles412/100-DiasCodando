@@ -1,6 +1,7 @@
 function Mostrar(){
     var botao = document.getElementById("botao-projetos")
     var projetos = document.getElementById("art-projetos")
+    var corpo = document.getElementById("corpo")
     if(projetos.style.display == "none"){
         projetos.style.display = "block"
          botao.innerText = "Ocultar"
@@ -22,12 +23,14 @@ function mudarTema(){
     var icone = document.getElementById("icone-tema")
     if (fundo.style.background == "white"){
         fundo.style.background = "black"
+        corpo.style.background = "gray"
         fundo.style.color = "darkgray"
           icone.src = "../imagens/brilho-do-sol.png"
       
     }else{
         fundo.style.background = "white"
         fundo.style.color = "black"
+        corpo.style.background = "white"
          icone.src = "../imagens/lua-crescente.png"
     }
 }
