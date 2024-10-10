@@ -96,6 +96,11 @@ div{
     border: solid 2px black;
 
 }
+ a:hover{
+transition: .3s;
+color: rgb(135, 86, 234);
+text-decoration: underline;
+}
 #card2{
 background-color: rgb(52, 51, 51);
 }
