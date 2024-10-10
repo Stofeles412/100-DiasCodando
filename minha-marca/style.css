@@ -112,10 +112,10 @@ img{
    
 }
 .icone-1:hover{
- content: url(); 
+ content: url(../imagens/icone_guit-removebg-preview.png); 
 }
 .icone-2:hover{
-    content: url(../imagens/logotipo-do-linkedin.png);
+    content: url(../imagens/linkedin.png);
 }
 .icone-1{
     margin-right: 100px;
@@ -125,7 +125,7 @@ footer{
     text-align: center;
     margin-top: 30%;
     padding: 5%;
-    background-color: rgb(160, 160, 161);
+    background-color: rgb(66, 66, 66);
 }
 footer, a{
     line-height: 50px;
