@@ -51,6 +51,7 @@ ul, li{
     
 }
 #botao-projetos{
+    margin-top: 10%;
     background-color: rgba(167, 169, 194, 0.144);
     border: 0;
     cursor: pointer;
@@ -59,8 +60,10 @@ ul, li{
     width: 100%;
 }
 #botao-tema{
-  width: 100%;
-    background-color: rgba(125, 123, 123, 0.501);
+    background-color: transparent;
+    margin: auto;
+    display: block;
+    width: 50%;
     cursor: pointer;
     padding: 1px;
     border: 0;
