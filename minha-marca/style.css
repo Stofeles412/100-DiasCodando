@@ -112,10 +112,10 @@ img{
    
 }
 .icone-1:hover{
-    content: url(../imagens/linkedin\ \(1\).png);
+ content: url(); 
 }
 .icone-2:hover{
-    content: url(../imagens/estude.png);
+    content: url(../imagens/logotipo-do-linkedin.png);
 }
 .icone-1{
     margin-right: 100px;
@@ -125,7 +125,7 @@ footer{
     text-align: center;
     margin-top: 30%;
     padding: 5%;
-    background-color: rgb(6, 2, 44);
+    background-color: rgb(160, 160, 161);
 }
 footer, a{
     line-height: 50px;
