@@ -142,6 +142,9 @@ footer, a{
     .card-img{
         width: 100%;
     }
+    #botao-tema{
+        width: 80%;
+    }
     div{
         height: 100%;
     }
