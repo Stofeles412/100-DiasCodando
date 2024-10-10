@@ -111,7 +111,9 @@ img{
    
 }
 .icone-1:hover{
- content: url(../imagens/icone_guit-removebg-preview.png); 
+ content: url(../imagens/guithub-lilas.png); 
+ border: 0px;
+ background: transparent;
 }
 .icone-2:hover{
     content: url(../imagens/linkedin.png);
