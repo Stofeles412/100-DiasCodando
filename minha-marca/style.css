@@ -9,7 +9,7 @@ margin: 0;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-  background-image: url(../imagens/header-fundo.webp);
+  background-image: url(../imagens/fundo-dev.png);
 }
 body{
     overflow-x: hidden;
@@ -19,7 +19,6 @@ body{
 
 
 #containe-principal{
-    border: solid 2px black;
     line-height: 60px;
     padding: 5%;
     margin-top: -50%;
