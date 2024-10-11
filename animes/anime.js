@@ -13,4 +13,12 @@ function openMenu(){
       
     }
 }
-confirm ("ATENÇÃO: ESSE ARTIGO PODE CONTER SPOILER DO ANIME !!")
+
+    function abrirAlert(){
+        Swal.fire({
+            title: "Atenção",
+            text: "Esse artigo pode conter spoilers do anime, deseja continuar ?",
+            icon: "warning"
+          });
+        }
+    

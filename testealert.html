@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de personalizção de alerta</title>
+</head>
+<style>
+    #box{
+        position: fixed;
+        border-radius: 100px;
+        font-weight: bold;
+     display: none;
+        color: whitesmoke;
+        box-shadow: 10px 10px 17px black;
+        padding: 10%;
+        margin: auto;
+        width: 30%;
+        height: 300px;
+      background-image: url(./imagens/fundo\ natureza.jpg);
+    
+    }
+    #botao-1{
+        width: 20%;
+        color: rgb(0, 0, 0);
+        background-color: rgb(35, 159, 213);
+       padding: 10px;
+       margin: 30px;
+      
+    }
+    #botao-2{
+        width: 20%;
+        color: rgb(237, 235, 235);
+        background-color: rgb(2, 40, 57);
+       padding: 10px;
+
+    }
+    main{
+     position: absolute;
+    }
+</style>
+
+<body onload="abrirAlert()" id="corpo">
+    <main>
+        <h2>apenas um teste</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi placeat impedit eum, optio accusantium quaerat recusandae doloremque quibusdam blanditiis totam unde maiores vitae? Voluptatibus, dignissimos officiis facere error commodi eligendi? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa voluptatibus praesentium voluptas sint quibusdam tempore a fugiat nesciunt, quasi excepturi consequatur corporis iusto perspiciatis magni doloremque incidunt explicabo itaque? Maiores!</p>
+        <img src="./imagens/kimetsu img1.png" alt="" width="30%">
+    </main>
+    <div id="box">
+        <h2>riscos de spoilers</h2>
+     
+        <span id="alert-messagem">olá amigo</span>
+    
+       
+      
+        <button onclick="fecharAlert()" id="botao-1">continua</button>
+    </div>
+ 
+</body>
+
+<script>
+function abrirAlert(){
+    mostrar = document.getElementById("box")
+  corpo = document.getElementById("corpo")
+    mostrar.style.display = "block" 
+    corpo.style.background = "gray"
+}
+    
+
+   
+  function fecharAlert(){
+    var fechar = document.getElementById("box")
+    fechar.style.display = "none"
+     corpo.style.background = "white"
+   }
+   
+</script>
+</html>
+
