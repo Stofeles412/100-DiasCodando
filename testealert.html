@@ -38,13 +38,46 @@
     main{
      position: absolute;
     }
+
+    
+section{
+    background-color: rgb(6, 75, 121);
+    padding: 15%;
+   display: flex;
+}
+    #seçao-1{
+       display: flex;
+     flex-direction: row;
+    }
+    #seçao-2{
+      
+flex-direction: row-reverse;
+    }
+    #seçao-3{
+        flex-direction: row;
+    }
+    #seçao-4{
+        flex-direction: row-reverse;
+    }
+    img{
+        width: 50%;
+    }
+    .seçao-img1{
+        width: 40%;
+      height: 700px;
+    }
+    p{
+        padding: 80px;
+        font-size: 1.6em;
+        font-weight: bold;
+        color: darkgoldenrod;
+    }
 </style>
 
 <body onload="abrirAlert()" id="corpo">
     <main>
-        <h2>apenas um teste</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi placeat impedit eum, optio accusantium quaerat recusandae doloremque quibusdam blanditiis totam unde maiores vitae? Voluptatibus, dignissimos officiis facere error commodi eligendi? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa voluptatibus praesentium voluptas sint quibusdam tempore a fugiat nesciunt, quasi excepturi consequatur corporis iusto perspiciatis magni doloremque incidunt explicabo itaque? Maiores!</p>
-        <img src="./imagens/kimetsu img1.png" alt="" width="30%">
+     
+      
     </main>
     <div id="box">
         <h2>riscos de spoilers</h2>
@@ -55,8 +88,28 @@
       
         <button onclick="fecharAlert()" id="botao-1">continua</button>
     </div>
- 
-    
+ <section id="seçao-1">
+<img src="./imagens/abertura do castelo img.png" alt="" class="seçao-img1">
+
+<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis cumque, est dolorum possimus praesentium repudiandae voluptatibus doloremque aperiam dignissimos distinctio molestias magnam culpa fugiat nostrum quam vero debitis consequatur repellat.</p>
+ </section>
+
+ <section id="seçao-2">
+<img src="./imagens/kimetsu img1.png" alt="" class="seçao-img2">
+
+<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci consequatur iure magni hic, suscipit temporibus in at facere, tempora harum nihil culpa qui inventore quis repellendus cupiditate. Repellendus, cum provident.</p>
+ </section>
+    <section id="seçao-3">
+<img src="./imagens/abertura do castelo img.png" alt="">
+
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus ducimus temporibus, rem magnam cumque sapiente? Consequatur repudiandae similique ea, hic neque culpa delectus, fugit debitis error magnam laudantium alias vitae.</p>
+    </section>
+
+    <section id="seçao-4">
+<img src="./imagens/fundo natureza.jpg" alt="">
+
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium sint pariatur asperiores quod fugiat eius, autem, a ea, magnam at eligendi recusandae vitae eos vero cumque assumenda molestias obcaecati! Veritatis!</p>
+    </section>
 </body>
 
 <script>
