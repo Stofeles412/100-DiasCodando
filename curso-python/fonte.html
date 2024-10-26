@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <h2>olá, aqui embaixo vai o texto que terá interatividade com JS</h2>
+        <p id="font-tamanho">aqui vai o texto</p>
+
+        <button onclick="ampliar()">+</button>
+        <button onclick="diminuir()">-</button>
+    </main>
+  <script>
+    function ampliar(){
+        var mais = document.getElementById("font-tamanho")
+        mais.style.fontSize = "3em"
+    }
+    function diminuir(){
+        var menos = document.getElementById("font-tamanho")
+        menos.style.fontSize = "2em"
+    }
+  </script>
+</body>
+</html>
