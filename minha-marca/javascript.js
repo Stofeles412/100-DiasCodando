@@ -24,6 +24,7 @@ function mudarTema(){
     if (fundo.style.background === "white"){
         fundo.style.background = "black"
         corpo.style.background = "gray"
+        botaoTema.style.background = "#4d0897"
         fundo.style.color = "darkgray"
           icone.src = "../imagens/brilho-do-sol.png"
       
@@ -31,6 +32,7 @@ function mudarTema(){
         fundo.style.background = "white"
         fundo.style.color = "black"
         corpo.style.background = "white"
+          botaoTema.style.background = "#721ccd"
          icone.src = "../imagens/lua-crescente.png"
     }
 }
