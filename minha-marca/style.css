@@ -9,7 +9,7 @@ margin: 0;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-  background-image: url(../imagens/fundo-dev.png);
+  background-image: url(../imagens/header-fundo.webp);
 }
 body{
     overflow-x: hidden;
@@ -59,14 +59,9 @@ ul, li{
     width: 100%;
 }
 #botao-tema{
-<<<<<<< HEAD
-    margin-top: 30px;
-=======
     background-color: transparent;
-    margin: auto;
+    margin-top: 30px;
     display: block;
-    width: 50%;
->>>>>>> main
     cursor: pointer;
     border: 0px;
     position: fixed;
