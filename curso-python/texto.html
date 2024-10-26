@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu com Texto Oculto</title>
+    <style>
+        nav{
+            padding: 3%;
+            background-color: rgb(35, 34, 34);
+        }
+        body {
+            font-family: Arial, sans-serif; /* Fonte do corpo */
+        }
+
+        #menu {
+            display: flex; /* Flexbox para disposição horizontal */
+            list-style-type: none; /* Remove a lista padrão */
+            padding: 0; /* Remove o preenchimento padrão */
+        }
+
+        .menu-item {
+            position: relative; /* Necessário para posicionar o texto oculto */
+            margin: 0 15px; /* Espaçamento entre os itens do menu */
+            cursor: pointer; /* Indica que é interativo */
+            color: rgb(217, 217, 217); /* Cor do texto */
+            font-size: 1.2em; /* Tamanho da fonte */
+            font-weight: bold;
+        }
+
+        .texto-oculto {
+            display: none; /* Inicialmente oculto */
+            position: absolute; /* Para que fique posicionado sobre os itens do menu */
+            background-color: beige; /* Fundo do texto oculto */
+            border: solid 2px black; /* Borda do texto oculto */
+            padding: 50px; /* Espaçamento interno */
+            z-index: 1; /* Para garantir que fique acima de outros elementos */
+            transition: 0.3s; /* Transição suave */
+        }
+
+        .menu-item:hover .texto-oculto {
+            display: block; /* Mostra o texto ao passar o mouse */
+        }
+    </style>
+</head>
+<body>
+<nav>
+    <ul id="menu">
+        <li class="menu-item">
+            Opção 1
+            <div class="texto-oculto">
+             <a href="">novos</a>
+             <a href="">velhos</a>
+             <a href="">inova</a>
+             <a href="">vidas</a>
+            </div>
+        </li>
+        <li class="menu-item">
+            Opção 2
+            <div class="texto-oculto">
+                Informações sobre a Opção 2.
+            </div>
+        </li>
+        <li class="menu-item">
+            Opção 3
+            <div class="texto-oculto">
+                Informações sobre a Opção 3.
+            </div>
+        </li>
+        <li class="menu-item">
+            Opção 4
+            <div class="texto-oculto">
+                Informações sobre a Opção 4.
+            </div>
+        </li>
+    </ul>
+</nav>
+</body>
+</html>

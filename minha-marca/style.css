@@ -9,7 +9,7 @@ margin: 0;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-  background-image: url(../imagens/header-fundo.webp);
+  background-image: url(../imagens/fundo-dev.png);
 }
 body{
     overflow-x: hidden;
@@ -19,7 +19,6 @@ body{
 
 
 #containe-principal{
-    border: solid 2px black;
     line-height: 60px;
     padding: 5%;
     margin-top: -50%;
@@ -51,6 +50,7 @@ ul, li{
     
 }
 #botao-projetos{
+    margin-top: 10%;
     background-color: rgba(167, 169, 194, 0.144);
     border: 0;
     cursor: pointer;
@@ -59,7 +59,14 @@ ul, li{
     width: 100%;
 }
 #botao-tema{
+<<<<<<< HEAD
     margin-top: 30px;
+=======
+    background-color: transparent;
+    margin: auto;
+    display: block;
+    width: 50%;
+>>>>>>> main
     cursor: pointer;
     border: 0px;
     position: fixed;
@@ -102,6 +109,11 @@ div{
     border: solid 2px black;
 
 }
+ a:hover{
+transition: .3s;
+color: rgb(135, 86, 234);
+text-decoration: underline;
+}
 #card2{
 background-color: rgb(52, 51, 51);
 }
@@ -110,6 +122,16 @@ background-color: rgb(52, 51, 51);
 }
 img{
     width: 5%;
+   
+}
+
+.icone-1:hover{
+ content: url(../imagens/github_icon-lilas.webp); 
+ border: 0px;
+ background: transparent;
+}
+.icone-2:hover{
+    content: url(../imagens/linkedin.png);
 }
 #projetos, .projetos-img1, h3{
     padding: 100px;
@@ -155,7 +177,7 @@ footer{
     text-align: center;
     margin-top: 30%;
     padding: 5%;
-    background-color: rgb(6, 2, 44);
+    background-color: rgb(66, 66, 66);
 }
 footer, a{
     line-height: 50px;
@@ -170,6 +192,9 @@ footer, a{
     }
     .card-img{
         width: 100%;
+    }
+    #botao-tema{
+        width: 80%;
     }
     div{
         height: 100%;

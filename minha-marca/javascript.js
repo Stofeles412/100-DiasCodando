@@ -18,9 +18,9 @@ function Mostrar(){
 }
 
 function mudarTema(){
-    var fundo = document.getElementById ("containe-principal")
+    const fundo = document.getElementById ("containe-principal")
     botaoTema = document.getElementById ("botao-tema")
-    var icone = document.getElementById("icone-tema")
+    const icone = document.getElementById("icone-tema")
     if (fundo.style.background === "white"){
         fundo.style.background = "black"
         corpo.style.background = "gray"
