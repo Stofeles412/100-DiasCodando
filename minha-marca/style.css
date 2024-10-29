@@ -182,14 +182,16 @@ footer, a{
 }
 @media  screen and (max-width: 700px){
     #containe-principal{
-        width: 70%;
+        width: 55%;
        line-height: 60px;
     }
     .card-img{
         width: 100%;
     }
     #botao-tema{
-        width: 80%;
+      
+        height: 70px;
+        width: 70px;
     }
     div{
         height: 100%;
