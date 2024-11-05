@@ -1,5 +1,5 @@
-from time import sleep
-n1 = int (input("digite um numero"))
-print("processando")
-sleep(3)
-print("numero digitado foi {}".format(n1))
+i = int (input("digite um numero :"))
+f = int(input("Fim"))
+p = int (input("pasos"))
+for c in range(i, f+1, p):
+    print(c)
