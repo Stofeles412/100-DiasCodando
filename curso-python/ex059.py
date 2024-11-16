@@ -2,7 +2,7 @@ n1 = int(input("1° valor"))
 n2 = int(input("2° valor"))
 opçao  = 0
 while opçao != 5:
- print("""
+    print("""
          [1] somar
          [2] multiplicar
          [3] maior
@@ -10,7 +10,5 @@ while opçao != 5:
          [5] Sair do programa
      
          """)
-opçao = str(input("Escolha a opção : "))
-if opçao == 1:
-   soma = n1 + n2
-   print("A soma dos de {} + {} = {}".format(n1, n2, soma))
+    opçao = int(input("Escolha a opção : "))
+print("saindo do sistema...")
