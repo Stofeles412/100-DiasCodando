@@ -41,7 +41,8 @@
 
     
 section{
-    background-color: rgb(6, 75, 121);
+   background-repeat: no-repeat;
+   background-color: rgb(6, 75, 121);
     padding: 15%;
    display: flex;
 }
@@ -82,11 +83,44 @@ flex-direction: row-reverse;
         font-weight: bold;
         color: darkgoldenrod;
     }
+
+    #nav-bar{
+        position: fixed;
+        padding: 10%;
+        background-color: black;
+        opacity: 0;
+        transform: translate(-100%);
+      height: 500px;
+        transition: ease 1s;
+      
+       
+    }
+    #nav-bar.show{
+        height: 500px;
+        transform-origin: left;
+        opacity: 1;
+        transform: translate(0);
+        transition: ease 0.5;
+        overflow-y: auto;
+        
+    }
+    #itens, a, li{
+        color: aliceblue;
+        text-decoration: none;
+        list-style-type: none;
+        font-size: 1.5em;
+    }
 </style>
 
 <body onload="abrirAlert()" id="corpo">
-    <main>
-     
+    <button onclick="openMenu()">abrir</button>
+    <main id="nav-bar">
+     <ul id="itens">
+        <li><a href="#">1 item</a></li>
+        <li><a href="#">2 itens</a></li>
+        <li><a href="#">3 itens</a></li>
+        <li><a href="#">4 utens</a></li>
+     </ul>
       
     </main>
     <div id="box">
@@ -138,6 +172,15 @@ function abrirAlert(){
      corpo.style.background = "white"
    }
    
+function openMenu(){
+const itens = document.getElementById("nav-bar")
+if(itens.classList.contains("show")){
+    itens.classList.remove("show")
+}else{
+    itens.classList.add("show")
+}
+   }
+
 </script>
 </html>
 
