@@ -3,184 +3,85 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Teste de personalizção de alerta</title>
+    <title>Animações Similar ao AOS</title>
+    <style>
+        main {
+            padding: 10%;
+            opacity: 0;
+            transform: translateX(-50px);
+            transform-origin: left;
+            transition: opacity 1s, transform 1s;
+        }
+
+        main.show {
+            opacity: 1;
+            transform: translateX(0);
+        }
+
+        #containe-1 {
+            background-color: rgb(0, 217, 255);
+        }
+
+        #containe-2 {
+            background-color: rgb(41, 41, 61);
+        }
+
+        #containe-3 {
+            background-color: rgb(125, 125, 216);
+        }
+
+        #containe-4 {
+            background-color: rgb(8, 8, 240);
+        }
+    </style>
 </head>
-<style>
-    #box{
-        position: fixed;
-        border-radius: 100px;
-        font-weight: bold;
-     display: none;
-        color: whitesmoke;
-        box-shadow: 10px 10px 17px black;
-        padding: 10%;
-        margin: auto;
-        width: 30%;
-        height: 300px;
-      background-image: url(./imagens/fundo\ natureza.jpg);
-    
-    }
-    #botao-1{
-        width: 20%;
-        color: rgb(0, 0, 0);
-        background-color: rgb(35, 159, 213);
-       padding: 10px;
-       margin: 30px;
-      
-    }
-    #botao-2{
-        width: 20%;
-        color: rgb(237, 235, 235);
-        background-color: rgb(2, 40, 57);
-       padding: 10px;
+<body>
+    <h1>Bem-vindo</h1>
 
-    }
-    main{
-     position: absolute;
-    }
-
-    
-section{
-   background-repeat: no-repeat;
-   background-color: rgb(6, 75, 121);
-    padding: 15%;
-   display: flex;
-}
-    #seçao-1{
-       display: flex;
-     flex-direction: row;
-    }
-    #seçao-2{
-      
-flex-direction: row-reverse;
-    }
-    #seçao-3{
-        flex-direction: row;
-    }
-    #seçao-4{
-        flex-direction: row-reverse;
-    }
-    img{
-        width: 50%;
-    }
-    .seçao-img1{
-        width: 40%;
-      height: 500px;
-    }
-    .seçao-img2{
-        width: 50%;
-       height: 500px; 
-    }
-    .seçao-img3{
-        border-radius: 100px;
-    }
-    .seçao-img4{
-        width: 65%;
-    }
-    p{
-        padding: 80px;
-        font-size: 1.6em;
-        font-weight: bold;
-        color: darkgoldenrod;
-    }
-
-    #nav-bar{
-        position: fixed;
-        padding: 10%;
-        background-color: black;
-        opacity: 0;
-        transform: translate(-100%);
-        height: 500px;
-        transition: ease 1s;
-      
-       
-    }
-    #nav-bar.show{
-        height: 500px;
-        transform-origin: left;
-        opacity: 1;
-        transform: translate(0);
-        transition: ease 0.5;
-        overflow-y: auto;
-        
-    }
-    #itens, a, li{
-        color: aliceblue;
-        text-decoration: none;
-        list-style-type: none;
-        font-size: 1.5em;
-    }
-</style>
-
-<body onload="abrirAlert()" id="corpo">
-    <button onclick="openMenu()">abrir</button>
-    <main id="nav-bar">
-     <ul id="itens">
-        <li><a href="#">1 item</a></li>
-        <li><a href="#">2 itens</a></li>
-        <li><a href="#">3 itens</a></li>
-        <li><a href="#">4 utens</a></li>
-     </ul>
-      
+    <main id="containe-1" class="corpos">
+        <h1>Primeira</h1>
+        <p>Conteúdo da primeira seção.</p>
+        <img src="/imagens/dever-de-casa.png" alt="Imagem">
     </main>
-    <div id="box">
-        <h2>riscos de spoilers</h2>
-     
-        <span id="alert-messagem">olá amigo</span>
-    
-       
-      
-        <button onclick="fecharAlert()" id="botao-1">continua</button>
-    </div>
- <section id="seçao-1">
-<img src="./imagens/abertura do castelo img.png" alt="" class="seçao-img1">
 
-<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis cumque, est dolorum possimus praesentium repudiandae voluptatibus doloremque aperiam dignissimos distinctio molestias magnam culpa fugiat nostrum quam vero debitis consequatur repellat.</p>
- </section>
+    <main id="containe-2" class="corpos">
+        <h1>Segunda</h1>
+        <p>Conteúdo da segunda seção.</p>
+        <img src="/imagens/dever-de-casa.png" alt="Imagem">
+    </main>
 
- <section id="seçao-2">
-<img src="./imagens/kimetsu img1.png" alt="" class="seçao-img2">
+    <main id="containe-3" class="corpos">
+        <h1>Terceira</h1>
+        <p>Conteúdo da terceira seção.</p>
+        <img src="/imagens/dever-de-casa.png" alt="Imagem">
+    </main>
 
-<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci consequatur iure magni hic, suscipit temporibus in at facere, tempora harum nihil culpa qui inventore quis repellendus cupiditate. Repellendus, cum provident.</p>
- </section>
-    <section id="seçao-3">
-<img src="./imagens/abertura do castelo img.png" alt="" class="seçao-img3">
+    <main id="containe-4" class="corpos">
+        <h1>Quarta</h1>
+        <p>Conteúdo da quarta seção.</p>
+        <img src="/imagens/dever-de-casa.png" alt="Imagem">
+    </main>
 
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus ducimus temporibus, rem magnam cumque sapiente? Consequatur repudiandae similique ea, hic neque culpa delectus, fugit debitis error magnam laudantium alias vitae.</p>
-    </section>
+    <script>
+        function animas() {
+            const sections = document.querySelectorAll('main'); // Seleciona todos os elementos <main>
 
-    <section id="seçao-4">
-<img src="./imagens/fundo natureza.jpg" alt="" class="seçao-img4">
+            window.addEventListener('scroll', () => {
+                const triggerBottom = window.innerHeight * 0.8; // Define o limite inferior da ativação
+                
+                sections.forEach(section => {
+                    const sectionTop = section.getBoundingClientRect().top;
 
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium sint pariatur asperiores quod fugiat eius, autem, a ea, magnam at eligendi recusandae vitae eos vero cumque assumenda molestias obcaecati! Veritatis!</p>
-    </section>
+                    if (sectionTop < triggerBottom) {
+                        section.classList.add('show'); // Adiciona a classe quando visível
+                    } else {
+                        section.classList.remove('show'); // Remove a classe quando fora da área
+                    }
+                });
+            });
+        }
+
+        animas();
+    </script>
 </body>
-
-<script>
-function abrirAlert(){
-    mostrar = document.getElementById("box")
-  corpo = document.getElementById("corpo")
-    mostrar.style.display = "block" 
-    corpo.style.background = "gray"
-}
-    
-
-   
-  function fecharAlert(){
-    var fechar = document.getElementById("box")
-    fechar.style.display = "none"
-     corpo.style.background = "white"
-   }
-   
-function openMenu(){
-const itens = document.getElementById("nav-bar")
-if(itens.classList.contains("show")){
-    itens.classList.remove("show")
-}else{
-    itens.classList.add("show")
-}
-   }
-
-</script>
 </html>
-
