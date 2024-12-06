@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+ #corpo.black{
+background-color: rgb(96, 95, 95);
+color:  rgb(0, 0, 0);
+transform: translate(0);
+transition: 1;
+
+ }
+#corpo.black{
+background-color: rgb(0, 0, 0);
+color: aliceblue;
+transition: 1s;
+opacity: 1;
+        }
+#menu-bar{
+ margin-top: -100px;
+    opacity: 0;
+    transition: 1s;
+    
+}
+#menu-bar.visivel{
+    margin-top: -30px;
+    transition: 1s;
+    transform: translate(1);
+    opacity: 1;
+    transform-origin: top;
+    background-color:rgb(40, 38, 38);
+    padding: 30px;
+   
+}
+   
+    </style>
+</head>
+<body>
+    <nav id="menu-bar">
+        <ul>
+            <li><a href="#">oii</a></li>
+            <li><a href="#">oii</a></li>
+            <li><a href="#">oii</a></li>
+            <li><a href="#">oii</a></li>
+        </ul>
+    </nav>
+
+    <main id="corpo">
+        <h1>ola</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A enim commodi maxime ducimus. Magnam, corporis blanditiis deleniti dignissimos odit fugit, nobis veniam molestiae quaerat delectus error similique repellendus recusandae? Quibusdam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, unde. Dicta ullam aspernatur quod! Id eligendi distinctio tempore, facere fugiat debitis, quia officiis magnam optio iste mollitia cumque rem aliquid?</p>
+    </main>
+
+    <button onclick="mudarTema()">tema</button>
+    <button onclick="openMenu()">menu</button>
+    <script>
+        function mudarTema(){
+            const tema = document.getElementById("corpo")
+            tema.classList.toggle("black")
+        }
+
+        function openMenu(){
+            const abrir = document.getElementById("menu-bar")
+            abrir.classList.toggle("visivel")
+        }
+    </script>
+</body>
+</html>
