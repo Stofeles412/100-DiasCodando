@@ -8,8 +8,10 @@ totalCed = 0
 while True:
     if total >= ced:
         total -= ced
+        totalCed += 1
     else:
-        print(f"Total de {totalCed}x celulas de {ced}R$")
+        if totalCed > 0:
+          print(f"Total de {totalCed}x celulas de {ced}R$")
         if ced == 50:
             ced = 20
         elif ced == 20:
@@ -20,5 +22,6 @@ while True:
         if total == 0:
             break
              
-        
+print("="*30) 
+print("Volte sempre ao banco vidas :)")     
 
