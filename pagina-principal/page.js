@@ -30,6 +30,6 @@ function ampliarImg(){
 
     }
 }
-confirm ("você aceita cookies ?")
+
 
 
