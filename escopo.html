@@ -33,6 +33,21 @@
         button:hover {
             background-color: darkgray;
         }
+
+        #Imagem{
+width: 400px;
+transition: ease .5s;
+        }
+        #Imagem.almentar{
+            transition: ease .5s;
+            width: 700px;
+            
+         
+        }
+        main.blur{
+            filter: blur(5px);
+            transition: filter 0.5s ease;
+        }
     </style>
 </head>
 <body>
@@ -42,10 +57,19 @@
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus reprehenderit labore corrupti aut repellat adipisci, quidem ipsum natus ab earum necessitatibus repudiandae iusto fugit! Perferendis repellendus voluptatibus ad amet earum!</p>
         <button onclick="mudarTema()">Trocar Tema</button>
     </main>
+
+    <img src="imagens/abertura do castelo img.png" alt="" id="Imagem">
+    <button onclick="alterarImg()">zoom</button>
     <script>
         function mudarTema() {
             const tema = document.getElementById("corpo");
             tema.classList.toggle("black");
+        }
+
+        function alterarImg(){
+           const imagens = document.getElementById("Imagem")
+           imagens.classList.toggle("almentar")
+           document.main.classList.toggle("blur")
         }
     </script>
 </body>
