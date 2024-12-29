@@ -5,7 +5,7 @@ if 3 in numero:
     print(f"O valor 3 aparceu na {numero.index(3)+1}ª posição ")
 else:
     print("O valor 3 não foi encontado em nehuma posição")
-print(f"Os valores pares digitados fora {n}", end= " ")
+print(f"Os valores pares digitados fora {n}", end=" ")
 if n in numero:
     if n % 2 == 0:
         print(n, end=" ")
