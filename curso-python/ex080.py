@@ -11,5 +11,5 @@ for v in range(0,5):
              lista.insert(pos, n)
              print(f"Adicionado na posição {pos}")
              break
-        pos  += 1
+            pos  += 1
 print(f"O valore digitados foram {lista}")
