@@ -24,7 +24,7 @@
    #capa-header{
    background-image: url(/imagens/fundo-header.jpg);
    background-size: cover;
-   height: 500px;
+   height: 700px;
    }
     h1, h2{
         font-size: 3em;
@@ -62,7 +62,7 @@
       margin: auto;
       margin-top: 10%;
       width: 85%;
-      background-color: rgb(83, 80, 80);
+      background-color: rgb(41, 41, 43);
       margin-bottom: 20%;
       
     }
@@ -75,10 +75,10 @@
     }
     h1{
       font-size: 5em;
-      color: white;
+      color: rgb(224, 206, 5);
     }
     #caixa-h1{
-        background-color: rgba(0, 0, 0, 0.513);
+        background-color: rgba(53, 35, 187, 0.116);
     }
     .icone{
         width: 100px;
@@ -86,19 +86,61 @@
         margin-top: 100px;
         background-color: rgb(47, 140, 140);
     }
+    #seçao-1{
+        padding: 20%;
+        background-color: rgb(28, 1, 54);
+        color: aliceblue;
+        margin-top: 5%;
+        box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.44);
+    }
+    #seçao-1, h2{
+        color: rgb(237, 249, 6);
+        margin-bottom: 20%;
+        
+    }
+    .itens-ul{
+       text-align: center;
+        margin: 5%;
+        font-size: 3em;
+        display: inline;
+    }
+    li,a{
+        text-transform: capitalize;
+        font-family: monospace;
+        color: aliceblue;
+        list-style-type: none;
+        text-decoration: none;
+    }
+    #seçao-menu{
+        padding: 5%;
+        background-color: rgba(0, 0, 0, 0.15);
+    }
 </style>
 <body>
   
 
     <header id="capa-header">
+        <section id="seçao-menu">
+            <ul id="itens">
+                <li class="itens-ul"><a href="#">saude</a></li>
+                <li class="itens-ul"><a href="#">vidas</a></li>
+                <li class="itens-ul"><a href="#">veja</a></li>
+                <li class="itens-ul"><a href="#">sobre</a></li>
+            </ul>
+        </section>
+    
         <div id="caixa-h1">
 
 <h1>Expanda sua marca</h1>
 <h1>crie um negocio</h1>
 <h1>E tome um rumo</h1>
 </div>
-<img src="/imagens/linkedin (1).png" alt="" class="icone">
     </header>
+    <section id="seçao-1">
+<h2>Ola seção 2</h2>
+
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi rerum adipisci error, totam consectetur voluptatibus atque nihil cum nam consequatur quos voluptatem eaque eligendi tempore maiores dolor reiciendis cumque rem.</p>
+    </section>
     <main id="containe-principal">
 
         <h2>aqui vai seu titulo</h2>
@@ -194,6 +236,9 @@
 
        <p>aulas de seg - sex 07:00 - 18:00</p> 
     </div>
+    <footer>
+        <img src="/imagens/linkedin (1).png" alt="" class="icone">
+    </footer>
 </body>
 <script>
     function mostrar(){
