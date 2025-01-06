@@ -21,7 +21,11 @@
         margin-bottom: -5%;
         background-color: black;
     }
-   
+   #capa-header{
+   background-image: url(/imagens/fundo-header.jpg);
+   background-size: cover;
+   height: 500px;
+   }
     h1, h2{
         font-size: 3em;
         padding: 10px;
@@ -32,16 +36,18 @@
         background-color: rgb(255, 255, 255);
     }
     main{
-      
+        margin-top: 50%;
         box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.415);
         line-height: 50px;
         border: solid 1px black;
         padding: 5%;
         margin: auto;
-        margin-top: -8%;
         width: 85%;
         background-color: aliceblue;
-        margin-bottom: 20%;
+        
+    }
+    #containe-principal{
+        margin-top: 40%;
     }
     img{
         width: 60%;
@@ -67,14 +73,34 @@
         padding: 2%;
         margin: auto;
     }
+    h1{
+      font-size: 5em;
+      color: white;
+    }
+    #caixa-h1{
+        background-color: rgba(0, 0, 0, 0.513);
+    }
+    .icone{
+        width: 100px;
+        border-radius: 50px;
+        margin-top: 100px;
+        background-color: rgb(47, 140, 140);
+    }
 </style>
 <body>
   
 
-    <header>
+    <header id="capa-header">
+        <div id="caixa-h1">
 
+<h1>Expanda sua marca</h1>
+<h1>crie um negocio</h1>
+<h1>E tome um rumo</h1>
+</div>
+<img src="/imagens/linkedin (1).png" alt="" class="icone">
     </header>
     <main id="containe-principal">
+
         <h2>aqui vai seu titulo</h2>
 
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi cupiditate fuga reiciendis ex, nobis veritatis corporis tempora a reprehenderit quos facere, distinctio autem magni nesciunt blanditiis minima quidem ratione alias. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur magnam cum fuga commodi qui ratione mollitia dicta. Accusantium, alias. Cumque delectus illum culpa qui optio nisi ab eos voluptas vero?</p>
