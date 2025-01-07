@@ -1,5 +1,4 @@
 cadastro = []
-
 while True:
     nome = input("Qual o nome que quer cadastrar? ").strip()
     
