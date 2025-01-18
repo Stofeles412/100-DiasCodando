@@ -1,14 +1,21 @@
-from datetime import datetime
-dados = dict()
-dados ["Nome"] = str(input("Qual o nome do CLT: ?"))
-nasc = int(input("Digite o ano de nascimento contribuiente: "))
-dados["idade"] = datetime.now().year - nasc
-dados["Ctps"] = int(input("Carteira de trabalho(0 não tem): "))
-if dados["Ctps"] != 0:
-    dados["Contartação"] = int(input("ano de contratção: "))
-    dados["Salario"] = float(input("Qual o salrio do CLT: R$"))
-    dados["aponsentadoria"] = dados["idade"] + ((dados["Contratação"] + 35) - datetime.now().year)
+from random import randint
+from time import sleep
+from operator import itemgetter
+jogo = {"jogador-1": randint(1, 6),
+        "Jogador-2": randint(1,6),
+        "Jogador-3":randint(1, 6),
+        "Jogador-4": randint(1,6)}
+rank = list()
+print("Valores sorteados: ")
+
+for k, v in jogo.items():
+    print(f"{k} tirou {v} no dados")
+    sleep (1)
+rank = sorted(jogo.items(), key=itemgetter(1), reverse=True )
+print(rank)
+print("RANK DOS JOGADORES")
 print("-="*30)
-for k, v in dados.items():
-    print(f"_ {k} tem o valor {v}")
-   
+for i, v in enumerate(rank):
+    print(f"{i+1}° lugar: {v[0]} com {v[1]}")
+    sleep(1)
+    
