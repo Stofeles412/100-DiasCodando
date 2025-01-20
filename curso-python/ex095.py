@@ -1,4 +1,5 @@
 dados = dict()
+registros = list()
 while True:
     dados["nome"] = str(input("Digite seu nome: ? "))
     dados["idade"] = int(input("Digite sua idade: "))
