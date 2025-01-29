@@ -1,7 +1,14 @@
-def jogador(show=False ):
-    caro = str(input("Nome do jogador: "))
-    gol = int(input(f"Quantos gols {caro} fez: ?"))
-    if caro == "" or caro == int:
-        return("Jogador desconhedido fez 0")
-    else:
-        return(f"jogador {caro} fez {gol} gols")
+def ficha(jog="<desconhecido>",gol=0):
+    print(f"O jogador {jog} fez {gol} gol(s) no campeonato" )
+    
+n = str(input("Nome do jogador: "))
+g = int(input("Quantos gols fez: ?"))
+if g.isnumeric():
+   g = int(g)
+else:
+    g = 0
+if n.strip == "":
+    ficha(gol=g)
+else: 
+  ficha(n,g)
+        
