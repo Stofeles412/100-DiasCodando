@@ -9,9 +9,9 @@ def factorial(n, show =False):
             print(c , end="")
             if c > 1:
                 print("  x  ", end="")
-        else:
-            print(" = " , end="")
-    f *= c
+            else:
+             print(" = " , end="")
+        f *= c
     return f
 print(factorial(5 , show=True))
 help(factorial)
