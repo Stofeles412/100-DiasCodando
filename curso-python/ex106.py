@@ -9,11 +9,11 @@ c = ("\033[0;30;41m",  # 1 vermelho
      "\033[m")         # Resetar cor
 
 def ajuda(com):
-    titulo(f"Acessando o manual do comando '{com}'", 4)
+    titulo(f"Acessando o manual do comando \'{com}\'", 4)
     print(c[6], end="")  # Cor branca para melhor visualização
     help(com)
     print(c[6], end="")  # Resetando cor
-    sleep(2)
+    sleep(1)
 
 def titulo(msg, cor=0):
     tam = len(msg) + 4
@@ -24,11 +24,12 @@ def titulo(msg, cor=0):
     print(c[6], end="")  # Resetando cor para evitar problemas
 
 # Programa principal
+comando = ""
 while True:
-    titulo("Sistema de ajuda pyHelp", 2)
-    comando = input("Função ou biblioteca: ").strip()
-    if comando.lower() == "fim":
-        break
+    titulo("Sistema de ajuda pyHelp", 3)
+    comando = str(input("Função ou biblioteca > ").strip())
+    if comando.upper() == "fim":
+       break
     else:
         ajuda(comando)
 
