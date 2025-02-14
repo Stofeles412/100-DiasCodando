@@ -1,2 +1,2 @@
-from ex115.lib.interface import *
-cabeçalho("testando 123")
+from  ex115.interface import*
+print(cabeçalho)
